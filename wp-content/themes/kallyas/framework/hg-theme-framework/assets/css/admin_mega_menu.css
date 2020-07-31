@@ -1,0 +1,21 @@
+div.description { color: #666; font-size: 13px; font-style: italic; }
+
+/* MEGA MENU SPECIFIC */
+.field-enable-mega-menu-smart-area {width: 50%; margin: 0 !important; padding-right: 10px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box}
+.field-enable-mega-menu-headers, .field-enable-mega-menu, .field-enable-mega-menu-smart-area { display: none; }
+.menu-item-depth-1 .field-enable-mega-menu-headers, .menu-item-depth-0 .field-enable-mega-menu { display: block; }
+
+.field-enable-mega-menu-smart-area label {
+    display: block;
+    margin-bottom: 10px;
+}
+/*
+ * Preview image
+ */
+.field-add-image-mega-menu { width: 50%; margin: 0 !important; padding-right: 10px; display: none; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box}
+.field-add-image-mega-menu.is-visible { display: block; }
+.field-add-image-mega-menu.is-visible label { margin-bottom: 12px; display: block; }
+.field-add-image-mega-menu.is-visible .zn-hg-image-preview-wrapper { position: relative; display: inline-block; }
+.field-add-image-mega-menu.is-visible .zn-hg-image-preview { display: block; max-width: 140px; }
+.field-add-image-mega-menu .zn-hg-deleteImagePreview-button { position: absolute; top: 0; right: 0; color: #fff; background: rgba(0, 0, 0, 0.2); width: 20px; height: 20px; text-align: center; line-height: 18px; font-size: 10px; cursor: pointer; display:none; }
+.field-add-image-mega-menu.is-visible .zn-hg-image-upload-button { display: block; width: 100%; max-width: 140px; background: #47d3a5; border: 0; color: #fff; padding: 8px 10px; font-size: 13px; cursor: pointer; float: left; clear: both; }

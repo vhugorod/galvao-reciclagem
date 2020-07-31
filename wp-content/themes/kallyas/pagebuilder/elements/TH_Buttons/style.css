@@ -1,0 +1,8 @@
+/* Button element */
+.btn-element > span,
+.btn-element > i {vertical-align: middle; display: inline-block;}
+.btn-element > span + i {margin-left:10px}
+.btn-element > i + span {margin-left:10px}
+.btn-element.btn-text,
+.btn-element.btn-underline,
+.btn-element.btn-link {text-align: inherit;	padding-left: 0; padding-right: 0;}

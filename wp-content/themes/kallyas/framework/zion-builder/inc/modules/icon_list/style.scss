@@ -1,0 +1,38 @@
+.zn-iconList-el {}
+
+.zn-iconList {list-style: none; margin: 0; padding: 0; display: flex; }
+.zn-iconList--layout-vertical {flex-direction: column; align-items: center;}
+.zn-iconList--layout-horizontal {flex-direction: row; justify-content: center;}
+
+@media (min-width:768px){
+	.zn-iconList--layout-horizontal.zn-iconList-alg-left {justify-content: flex-start;}
+	.zn-iconList--layout-horizontal.zn-iconList-alg-center {justify-content: center;}
+	.zn-iconList--layout-horizontal.zn-iconList-alg-right {justify-content: flex-end;}
+	.zn-iconList--layout-horizontal.zn-iconList-alg-justify {justify-content: space-between;}
+	.zn-iconList--layout-vertical.zn-iconList-alg-left {align-items: flex-start;}
+	.zn-iconList--layout-vertical.zn-iconList-alg-center {align-items: center;}
+	.zn-iconList--layout-vertical.zn-iconList-alg-right {align-items: flex-end;}
+}
+
+.zn-iconList {
+	.zn-iconList-item {}
+	.zn-iconList-itemLink {}
+	.zn-iconList-itemIcon { font-size: 22px; padding: 10px; line-height: 1; display: inline-block; position:relative; text-align: center; vertical-align: middle; transition: all .2s cubic-bezier(0.215, 0.610, 0.355, 1.000); backface-visibility: hidden;}
+	.zn-iconList-itemIcon.is-not-single {margin-right: 20px;}
+	// Equal w/h
+	&.zn-iconList--eq .zn-iconList-itemIcon::before {position: absolute; top: calc( 50% - 0.5em ); line-height: 1; left: 0; right: 0; margin: 0 auto;}
+	// Border
+	&.zn-iconList--border .zn-iconList-itemIcon {box-shadow: 0 0 0 2px currentColor; }
+	&.zn-iconList--border .zn-iconList-item:hover .zn-iconList-itemIcon,
+	&.zn-iconList--border .zn-iconList-item:focus .zn-iconList-itemIcon {box-shadow: 0 0 0 4px currentColor;}
+	.zn-iconList-itemText {vertical-align: middle;}
+
+}
+// Margins
+.zn-iconList--layout-vertical .zn-iconList-item {margin-top: 10px; margin-bottom: 10px;}
+.zn-iconList--layout-horizontal .zn-iconList-item {margin-left: 10px; margin-right: 10px;}
+// Firsts and lasts
+.zn-iconList--layout-vertical .zn-iconList-item:first-child {margin-top: 0 !important;}
+.zn-iconList--layout-vertical .zn-iconList-item:last-child {margin-bottom: 0 !important;}
+.zn-iconList--layout-horizontal .zn-iconList-item:first-child {margin-left: 0 !important;}
+.zn-iconList--layout-horizontal .zn-iconList-item:last-child {margin-right: 0 !important;}

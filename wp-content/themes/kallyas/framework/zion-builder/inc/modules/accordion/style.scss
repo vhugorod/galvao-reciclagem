@@ -1,0 +1,55 @@
+.zn-accordion {
+	@media (max-width:767px){
+		margin-bottom:30px;
+	}
+}
+.zn-accordion-panelGroup {}
+.zn-accordion-accTitle {margin:0;}
+.zn-accordion-accIcon {}
+
+.zn-accordion-accGroup {
+	margin-bottom: 2px; padding: 0; border: 1px solid darken(white, 10); background-color: white;
+	& + & {margin-top: 0;}
+}
+.zn-accordion-accButton {
+	display: block; width: 100%; text-align: left; position:relative; margin:0; border: 0; color: #cc9933; padding: 16px 60px 15px 20px; font-size: 14px; font-weight: 600; outline: 0; transition: all .3s ease-out;
+	&:not(.collapsed),
+	&:hover,
+	&:focus {color:lighten(black, 10); background-color: darken(white, 1);}
+	&:before,
+	&:after {position: absolute; content: ''; width: 8px; height: 2px; display: block; background: rgba(black, 0.2); transition: all .3s ease-out; }
+	&:before {right: 20px; top: 50%; transform: rotate(-45deg); }
+	&:after {right: 15px; top: 50%; transform: rotate(45deg); }
+	&.collapsed:before {transform: rotate(45deg); }
+	&.collapsed:after {transform: rotate(-45deg); }
+}
+.zn-accordion-accContent {
+	padding-top: 20px; padding-bottom: 20px; border-top: 1px solid darken(white, 10);
+	p:last-child {margin-bottom:0;}
+}
+.zn-accordion-panelCollapse { padding: 0 20px }
+
+/* Dark */
+.zn-accordion--theme-dark {
+	.zn-accordion-accGroup {
+		border-color: invert(darken(white, 10)); background-color: invert(white); color: rgba(white,.8);
+	}
+	.zn-accordion-accButton {
+		&:not(.collapsed),
+		&:hover,
+		&:focus {color:invert(lighten(black, 10)); background-color: invert(darken(white, 1));}
+		&:before,
+		&:after {background: rgba(invert(black), 0.2);}
+	}
+	.zn-accordion-accContent {
+		border-top-color: invert(darken(white, 10));
+	}
+}
+
+/* If Slick inside */
+.zn-accordion-panelCollapse .zn-accordion-accContent .slick-slider {opacity:0; transition: opacity .35s ease-out .5s; visibility:visible; display:block;}
+.zn-accordion-panelCollapse.in .zn-accordion-accContent .slick-slider { opacity:1; }
+
+/* Fix for PB mode */
+.zn-accordion-panelCollapse:not(.in) .zn_element_zncolumn > .zn_el_options_bar,
+.zn-accordion-panelCollapse.collapsing .zn_element_zncolumn > .zn_el_options_bar {display: none;}

@@ -1,0 +1,23 @@
+.zn-multiLayers {position: relative;}
+
+.zn-multiLayers--pb-inactive .zn-multiLayers-item {position: absolute; width: 100%;}
+
+// Nav In PB Mode
+.zn-multiLayers-nav {
+	list-style: none; margin: 10px 0 0; padding: 0; display: flex; position: relative; z-index: 1; justify-content: center;
+	.zn-multiLayers-navItem {
+		margin-left:2px; margin-right:2px;
+		&:first-child {margin-left:0;}
+		&:last-child {margin-right:0;}
+		& > a {display: block; border: 1px solid darken(white, 10); background-color: darken(white, 5); color: rgba(black, .5); padding: 5px 15px; line-height: 1.4; transition: all .2s ease-out; text-align: center;}
+		&:hover > a,
+		&:focus > a,
+		&.active > a {background-color: white; color:black;}
+	}
+	.zn-multiLayers-navTitle { font-size: 14px; font-weight: 500; }
+}
+
+.zn-multiLayers--pb-active .zn-multiLayers-content {}
+.zn-multiLayers--pb-active .zn-multiLayers-item {display: none; }
+.zn-multiLayers--pb-active .zn-multiLayers-item.active {display: block;}
+

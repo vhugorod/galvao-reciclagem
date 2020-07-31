@@ -1,0 +1,27 @@
+/* Separators for menu items */
+#adminmenu a[href*="zn_tp_general_options"],
+#adminmenu a[href*="zn_tp_pb_layouts"],
+#adminmenu a[href*="zn_tp_blog_options"],
+#adminmenu a[href*="zn_tp_advanced_options"],
+#adminmenu a[href*="zn_tp_zn_woocommerce_options"] {border-top: 1px solid #424242; margin-top: 5px; padding-top:10px; }
+
+.quicklinks .znhgtfw-theme-options-menu-item ul#wp-admin-bar-znhgtfw-theme-options-menu-item-default li.menupop > a[href*="zn_tp_general_options"],
+.quicklinks .znhgtfw-theme-options-menu-item ul#wp-admin-bar-znhgtfw-theme-options-menu-item-default li.menupop > a[href*="zn_tp_pb_layouts"],
+.quicklinks .znhgtfw-theme-options-menu-item ul#wp-admin-bar-znhgtfw-theme-options-menu-item-default li.menupop > a[href*="zn_tp_blog_options"],
+.quicklinks .znhgtfw-theme-options-menu-item ul#wp-admin-bar-znhgtfw-theme-options-menu-item-default li.menupop > a[href*="zn_tp_advanced_options"],
+.quicklinks .znhgtfw-theme-options-menu-item ul#wp-admin-bar-znhgtfw-theme-options-menu-item-default li.menupop > a[href*="zn_tp_zn_woocommerce_options"] {border-top: 1px solid #424242; margin-top: 10px; padding-top:10px; }
+.quicklinks .znhgtfw-theme-options-menu-item ul#wp-admin-bar-znhgtfw-theme-options-menu-item-default li.menupop > a[href*="zn_tp_general_options"]:before,
+.quicklinks .znhgtfw-theme-options-menu-item ul#wp-admin-bar-znhgtfw-theme-options-menu-item-default li.menupop > a[href*="zn_tp_pb_layouts"]:before,
+.quicklinks .znhgtfw-theme-options-menu-item ul#wp-admin-bar-znhgtfw-theme-options-menu-item-default li.menupop > a[href*="zn_tp_blog_options"]:before,
+.quicklinks .znhgtfw-theme-options-menu-item ul#wp-admin-bar-znhgtfw-theme-options-menu-item-default li.menupop > a[href*="zn_tp_advanced_options"]:before,
+.quicklinks .znhgtfw-theme-options-menu-item ul#wp-admin-bar-znhgtfw-theme-options-menu-item-default li.menupop > a[href*="zn_tp_zn_woocommerce_options"]:before {top:11px;}
+
+
+/* Theme Options menu tweaks */
+#general_options_menu_item,
+#head_adv_options_menu_item,
+#default_header_options_menu_item,
+#footer_options_menu_item,
+#recaptcha_options_menu_item { border-bottom: 2px solid rgba(255, 255, 255, 0.3);}
+
+ul .znkl_comingsoon_on {background-color: #c62828;}

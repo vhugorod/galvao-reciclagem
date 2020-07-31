@@ -1,0 +1,21 @@
+/* Alignment */
+.znColumnElement-innerWrapper { width: 100%; position: relative; }
+
+.znColumnElement-innerWrapper--halign-center, .znColumnElement-innerWrapper--halign-right, .znColumnElement-innerWrapper--valign-center, .znColumnElement-innerWrapper--valign-bottom { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.znColumnElement-innerWrapper--halign-center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.znColumnElement-innerWrapper--halign-right { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+
+.znColumnElement-innerWrapper--valign-center > .znColumnElement-innerContent { -ms-flex-item-align: center; align-self: center; }
+
+.znColumnElement-innerWrapper--valign-bottom > .znColumnElement-innerContent { -ms-flex-item-align: end; align-self: flex-end; }
+
+.znColumnElement-innerWrapper .znColumnElement-innerContent { width: 100%; position: relative; }
+
+/* min-height is unsupported in IE11 for Flex container, so here's the tweak */
+.is-ie11 .znColumnElement-innerWrapper--valign-center, .is-ie11 .znColumnElement-innerWrapper--valign-bottom { display: table; }
+
+.is-ie11 .znColumnElement-innerWrapper--valign-center > .znColumnElement-innerContent { display: table-cell; vertical-align: middle; }
+
+.is-ie11 .znColumnElement-innerWrapper--valign-bottom > .znColumnElement-innerContent { display: table-cell; vertical-align: bottom; }

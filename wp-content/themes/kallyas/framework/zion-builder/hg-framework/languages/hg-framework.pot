@@ -1,0 +1,152 @@
+# Copyright (C) 2017 hg-framework
+# This file is distributed under the same license as the hg-framework package.
+msgid ""
+msgstr ""
+"Project-Id-Version: hg-framework\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Hogash\n"
+"Report-Msgid-Bugs-To: https://my.hogash.com/support/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/helpers/functions-helpers.php:112
+msgid "Same window"
+msgstr ""
+
+#: inc/helpers/functions-helpers.php:113
+msgid "New window"
+msgstr ""
+
+#: inc/html/class-html.php:142
+msgid "The option type (%s) is missing or we don't have any knowledge of this option type"
+msgstr ""
+
+#: inc/icon-manager/class-icon-manager.php:67
+msgid "Invalid request"
+msgstr ""
+
+#: inc/icon-manager/class-icon-manager.php:71
+msgid "Invalid request. Missing attachment"
+msgstr ""
+
+#: inc/icon-manager/class-icon-manager.php:83, inc/icon-manager/class-icon-manager.php:87
+msgid "Invalid request. Missing font name"
+msgstr ""
+
+#: inc/icon-manager/class-icon-manager.php:91
+msgid "Invalid request. Directory not found"
+msgstr ""
+
+#: inc/icon-manager/class-icon-manager.php:99
+msgid " The %s font was successfully deleted"
+msgstr ""
+
+#: inc/icon-manager/class-icon-manager.php:117
+msgid " The %s font was successfully added"
+msgstr ""
+
+#: inc/icon-manager/class-icon-manager.php:135
+msgid "The zip did not contained any svg files."
+msgstr ""
+
+#: inc/icon-manager/class-icon-manager.php:142, inc/icon-manager/class-icon-manager.php:154
+msgid "Could not find or read the svg file."
+msgstr ""
+
+#: inc/icon-manager/class-icon-manager.php:193
+msgid "There was a problem creating the icon list file"
+msgstr ""
+
+#: inc/icon-manager/class-icon-manager.php:205
+msgid "The svg file could not be opened."
+msgstr ""
+
+#: inc/icon-manager/class-icon-manager.php:273
+msgid "The temp folder could not be created !"
+msgstr ""
+
+#: inc/icon-manager/class-icon-manager.php:291
+msgid "The zip file could not be extracted !"
+msgstr ""
+
+#: inc/html/data_source/class-pages-data-source.php:13
+msgid "Use default"
+msgstr ""
+
+#: inc/html/fields/day_picker.php:10, inc/html/fields/day_picker.php:10, inc/html/fields/day_picker.php:21
+msgid "Sunday"
+msgstr ""
+
+#: inc/html/fields/day_picker.php:11, inc/html/fields/day_picker.php:11
+msgid "Monday"
+msgstr ""
+
+#: inc/html/fields/day_picker.php:12, inc/html/fields/day_picker.php:12
+msgid "Tuesday"
+msgstr ""
+
+#: inc/html/fields/day_picker.php:13, inc/html/fields/day_picker.php:13
+msgid "Wednesday"
+msgstr ""
+
+#: inc/html/fields/day_picker.php:14, inc/html/fields/day_picker.php:14
+msgid "Thursday"
+msgstr ""
+
+#: inc/html/fields/day_picker.php:15, inc/html/fields/day_picker.php:15
+msgid "Friday"
+msgstr ""
+
+#: inc/html/fields/day_picker.php:16, inc/html/fields/day_picker.php:16
+msgid "Saturday"
+msgstr ""
+
+#: inc/html/fields/group.php:228
+msgid "Delete"
+msgstr ""
+
+#: inc/html/fields/group.php:232
+msgid "Move"
+msgstr ""
+
+#: inc/html/fields/group.php:236
+msgid "Clone"
+msgstr ""
+
+#: inc/html/fields/group.php:238
+msgid "Edit"
+msgstr ""
+
+#: inc/html/fields/image_size.php:30
+msgid "Width"
+msgstr ""
+
+#: inc/html/fields/image_size.php:33
+msgid "X"
+msgstr ""
+
+#: inc/html/fields/image_size.php:35
+msgid "Height"
+msgstr ""
+
+#: inc/html/fields/smart_select.php:15
+msgid "-- Select --"
+msgstr ""
+
+#: inc/html/fields/widget_positions.php:15
+msgid "Columns :"
+msgstr ""
+
+#: inc/html/fields/widget_positions.php:56
+msgid "Styles :"
+msgstr ""
+
+#: inc/html/forms/theme_form.php:72
+msgid "Version: "
+msgstr ""

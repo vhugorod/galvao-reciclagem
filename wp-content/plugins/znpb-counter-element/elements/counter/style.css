@@ -1,0 +1,13 @@
+.zn-counterElm {font-size:16px; line-height:28px; margin-bottom: 30px;}
+.zn-counterElm.zn-counterElm-fadeIn {opacity: 0;}
+.zn-counterElm.zn-counterElm-fadeIn.is-appeared {-webkit-animation: revealAnimation 1s; animation: revealAnimation 1s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards;}
+@-webkit-keyframes revealAnimation {
+    0%, 50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes revealAnimation {
+    0%, 50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.zn-counterElm:before {content:attr(data-text-before);}
+.zn-counterElm:after {content:attr(data-text-after);}

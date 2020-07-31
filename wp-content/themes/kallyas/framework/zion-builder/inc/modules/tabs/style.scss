@@ -1,0 +1,52 @@
+.zn-tabs {}
+.zn-tabs-nav {
+	list-style: none; margin: 0; padding: 0; display: flex; margin-bottom: -2px; position: relative; z-index: 1;
+	.zn-tabs--alg-left & {justify-content: flex-start;}
+	.zn-tabs--alg-center & {justify-content: center; }
+	.zn-tabs--alg-right & {justify-content: flex-end;}
+	.zn-tabs--alg-justify & {
+		justify-content: space-around; text-align: center;
+		.zn-tabs-navItem {flex:1;}
+	}
+	@media (max-width: 767px) {
+		white-space: nowrap; overflow: hidden; overflow-x: auto; display: block;
+		.zn-tabs-navItem { display: inline-block; border:0; float:none;}
+		.zn-tabs-navItem a { padding-top: 12px; padding-bottom: 12px;}
+		.zn-tabs-nav::-webkit-scrollbar {appearance: none; }
+		.zn-tabs-nav::-webkit-scrollbar:vertical {width: 11px; }
+		.zn-tabs-nav::-webkit-scrollbar:horizontal {height: 11px; }
+		.zn-tabs-nav::-webkit-scrollbar-thumb {border-radius: 8px; border: 2px solid white; background-color: rgba(0, 0, 0, .3); }
+		.zn-tabs-nav::-webkit-scrollbar-track {background-color: #fff; border-radius: 8px;}
+	}
+}
+.zn-tabs-navItem {
+	margin-left:2px; margin-right:2px;
+	&:first-child {margin-left:0;}
+	&:last-child {margin-right:0;}
+	& > a {display: block; border: 1px solid darken(white, 10); background-color: darken(white, 3); color: rgba(black, .5); padding: 15px 30px; line-height: 1.4; transition: all .2s ease-out; text-align: center;}
+	&:hover > a,
+	&:focus > a,
+	&.active > a {background-color: white; color:black;}
+	&.active > a {border-bottom-color:transparent; padding: 18px 30px 12px;}
+}
+.zn-tabs-navTitle { font-size: 14px; font-weight: 500; }
+.zn-tabs-navIcon {
+	margin-right: 5px; vertical-align: middle;
+	& + span {vertical-align: middle; }
+}
+
+.zn-tabs-content {background-color: white; padding: 20px 25px; border: 1px solid darken(white, 10);}
+.zn-tabs-contentPane {display: none; }
+.zn-tabs-contentPane.active {display: block;}
+
+// Dark
+.zn-tabs--theme-dark {
+	.zn-tabs-navItem {
+		& > a {border-color: invert(darken(white, 25)); background-color: invert(darken(white, 10)); color: rgba(invert(black), .5);}
+		&:hover > a,
+		&:focus > a,
+		&.active > a {background-color: black; color:white;}
+		&.active > a {border-bottom-color:transparent; }
+	}
+	.zn-tabs-content {background-color: black; border-color: invert(darken(white, 10)); color:rgba(white, .7)}
+}

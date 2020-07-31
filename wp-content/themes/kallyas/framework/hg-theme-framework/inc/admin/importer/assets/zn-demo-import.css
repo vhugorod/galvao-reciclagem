@@ -1,0 +1,66 @@
+
+.zn-import-demo-notice-error {margin-bottom: 0;}
+.zn-import-demo-notice-error strong{ display: block; margin-bottom: 5px; color: #f44336;}
+
+.zn-installation-customize {display: none;}
+
+.zn-import-process-wrapper {
+    margin-top: 0;
+    padding-right: 40px;
+}
+
+.zn-import-ajax-progress{
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #e6e6e6;
+}
+.zn-import-ajax-progressTitle {
+    margin-bottom: 5px;
+    display: block;
+}
+.zn-import-progress-bar {
+    background: #4CAF50;
+    display: block;
+    height: 3px;
+    margin-bottom: -3px;
+}
+
+.zn-import-progress-status-text {
+    color: #000;
+}
+#zn-import-steps {
+    display: block;
+    font-size: 11px;
+    color: #ddd;
+}
+#zn-import-steps pre {
+    margin-top: 5px;
+}
+
+.zn-import-step-text {
+    font-size: 12px;
+    color: #808080;
+}
+
+.zn-import-step-status {
+    font-size: 12px;
+    float:right;
+}
+.zn-import-step-status.status-waiting { color: #c1c1c1 !important; }
+.zn-import-step-status.status-in-progress { color: #0000cc !important; }
+.zn-import-step-status.status-completed { color: #006600 !important; }
+.zn-import-step-status.status-failed { color: #cc0000 !important; }
+.zn-import-step-status.status-none { color: #808080 !important; }
+
+.zn-import-steps-block { display: block;    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ececec;}
+
+
+@media (max-height: 860px) {
+    .zn-install-popup-content-inner .zn-install-popup-side:last-child {
+        max-height: 68vh;
+        overflow-y: scroll;
+    }
+}

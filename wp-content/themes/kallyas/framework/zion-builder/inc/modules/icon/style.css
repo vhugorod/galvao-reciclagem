@@ -1,0 +1,22 @@
+/* Icon Box - Default element */
+.zn-iconIco { line-height: 1; font-size: 42px; display: inline-block; -webkit-transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1); transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1); position: relative; text-align: center; }
+
+span.zn-iconIco { font-size: 42px; }
+
+.zn-iconIco--eq .zn-iconIco::before { position: absolute; top: calc( 50% - 0.5em); line-height: 1; left: 0; right: 0; margin: 0 auto; }
+
+img.zn-iconIco { width: 100px; }
+
+/* Shaped icons - Circle Stroke */
+.zn-iconIco--border .zn-iconIco { -webkit-box-shadow: 0 0 0 2px currentColor; box-shadow: 0 0 0 2px currentColor; }
+
+.zn-iconIco--border .zn-iconIco:hover { -webkit-box-shadow: 0 0 0 4px currentColor; box-shadow: 0 0 0 4px currentColor; }
+
+/* Animate float */
+.zn-icon--animFloat .zn-iconIco { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-name: floatingAnim; animation-name: floatingAnim; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation-direction: alternate; animation-direction: alternate; -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes floatingAnim { from { -webkit-transform: translateY(-8px); transform: translateY(-8px); }
+  to { -webkit-transform: translateY(8px); transform: translateY(8px); } }
+
+@keyframes floatingAnim { from { -webkit-transform: translateY(-8px); transform: translateY(-8px); }
+  to { -webkit-transform: translateY(8px); transform: translateY(8px); } }

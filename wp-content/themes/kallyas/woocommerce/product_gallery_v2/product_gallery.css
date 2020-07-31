@@ -1,0 +1,80 @@
+
+/* DEFAULT STYLE */
+
+/* Prod page - main image */
+.woocommerce .single_product_main_image .images {border:1px solid #EAEAEA; background:#fff; width:100%; padding-bottom:1px; position: relative;}
+.woocommerce .single_product_main_image .images .woocommerce-main-image {width:100%; text-align:center; display: block;}
+/* Prod page - thumbnails */
+.woocommerce div.product div.images div.thumbnails {padding: 10px 0 0 10px; margin: 0 10px;}
+.woocommerce div.product div.images div.thumbnails img { border:1px solid #EAEAEA; padding:2px;}
+.woocommerce div.product div.images div.thumbnails img:hover { border:1px solid #EEE; }
+
+.kl-skin--dark .single_product_main_image .images {border:1px solid #151515; background:#000;}
+.kl-skin--dark div.product div.images div.thumbnails img { border:1px solid #151515; }
+.kl-skin--dark div.product div.images div.thumbnails img:hover { border:1px solid #111; }
+
+
+/* STYLE 2 */
+.woocommerce div.product.prodpage-style2 .single_product_main_image {padding-left: 0;padding-right: 30px;  }
+.woocommerce div.product.prodpage-style2 .main-data {padding-right: 0; padding-left: 20px;}
+/* Image and thumbs */
+.woocommerce div.product.prodpage-style2 .single_product_main_image .images {border:0;}
+.woocommerce div.product.prodpage-style2 .single_product_main_image .images .woocommerce-main-image {margin-bottom: 30px;}
+.woocommerce div.product.prodpage-style2 div.images div.thumbnails img {border:2px solid #efefef; padding: 0;}
+.woocommerce div.product.prodpage-style2 div.images div.thumbnails img:hover {border-color:#000000;}
+.woocommerce #content div.product.prodpage-style2 div.images div.thumbnails,
+.woocommerce div.product.prodpage-style2 div.images div.thumbnails,
+.woocommerce-page #content div.product.prodpage-style2 div.images div.thumbnails,
+.woocommerce-page div.product.prodpage-style2 div.images div.thumbnails { margin-left: -7px; margin-right: -7px; padding-left: 0; }
+.woocommerce #content div.product.prodpage-style2 div.images div.thumbnails a,
+.woocommerce div.product.prodpage-style2 div.images div.thumbnails a,
+.woocommerce-page #content div.product.prodpage-style2 div.images div.thumbnails a,
+.woocommerce-page div.product.prodpage-style2 div.images div.thumbnails a { height: auto; margin: 0 10px 10px 0; padding: 0; width: calc(25% - 10px); max-width: 70px; max-height: 70px; }
+
+/* Image and thumbs */
+.kl-skin--dark div.product.prodpage-style2 div.images div.thumbnails img {border:2px solid #101010;}
+.kl-skin--dark div.product.prodpage-style2 div.images div.thumbnails img:hover {border-color:#FFF;}
+
+/* STYLE 3 */
+
+/* Image and thumbs */
+.woocommerce #content div.product.prodpage-style3 .single_product_main_image,
+.woocommerce div.product.prodpage-style3 .single_product_main_image {padding-left: 0; padding-right: 0;background-color: transparent; position: relative;}
+.woocommerce #content div.product.prodpage-style3 .single_product_main_image:after,
+.woocommerce div.product.prodpage-style3 .single_product_main_image:after {content:''; position:absolute;background-color: rgba(142, 142, 142, 0.05);left: 0;top: 0;width: 100%;height: 100%;pointer-events: none;}
+.no-csspointerevents .woocommerce #content div.product.prodpage-style3 .single_product_main_image:after,
+.no-csspointerevents .woocommerce div.product.prodpage-style3 .single_product_main_image:after {display: none;}
+.woocommerce #content div.product.prodpage-style3 .single_product_main_image .images,
+.woocommerce div.product.prodpage-style3 .single_product_main_image .images {border:0; padding-top:0; padding-bottom: 0; max-width: 60%; float: none; width: auto; margin: 0 auto; background-color: transparent;}
+.woocommerce div.product.prodpage-style3 .single_product_main_image .images .woocommerce-main-image {margin-bottom: 0;}
+/* Thumbnails in product-summary  */
+.woocommerce div.product.prodpage-style3 .summary div.thumbnails img {border:2px solid #efefef; padding: 0;}
+.woocommerce div.product.prodpage-style3 .summary div.thumbnails img:hover {border-color:#000000;}
+.woocommerce #content div.product.prodpage-style3 .summary div.thumbnails,
+.woocommerce div.product.prodpage-style3 .summary div.thumbnails,
+.woocommerce-page #content div.product.prodpage-style3 .summary div.thumbnails,
+.woocommerce-page div.product.prodpage-style3 .summary div.thumbnails { margin-bottom: 40px; }
+.woocommerce #content div.product.prodpage-style3 .summary div.thumbnails a,
+.woocommerce div.product.prodpage-style3 .summary div.thumbnails a,
+.woocommerce-page #content div.product.prodpage-style3 .summary div.thumbnails a,
+.woocommerce-page div.product.prodpage-style3 .summary div.thumbnails a { width: 70px; height:70px; margin:0 10px 0 0; padding:0; }
+/* Just in case, thumbnails under main-image  */
+.woocommerce div.product.prodpage-style3 div.images div.thumbnails img {border:2px solid #efefef; padding: 0;}
+.woocommerce div.product.prodpage-style3 div.images div.thumbnails img:hover {border-color:#000000;}
+.woocommerce #content div.product.prodpage-style3 div.images div.thumbnails,
+.woocommerce div.product.prodpage-style3 div.images div.thumbnails,
+.woocommerce-page #content div.product.prodpage-style3 div.images div.thumbnails,
+.woocommerce-page div.product.prodpage-style3 div.images div.thumbnails { margin-left: -7px; margin-right: -7px; padding-left: 0; }
+.woocommerce #content div.product.prodpage-style3 div.images div.thumbnails a,
+.woocommerce div.product.prodpage-style3 div.images div.thumbnails a,
+.woocommerce-page #content div.product.prodpage-style3 div.images div.thumbnails a,
+.woocommerce-page div.product.prodpage-style3 div.images div.thumbnails a { width: 70px; height:70px; margin:0 10px 0 0; padding:0; }
+
+.kl-skin--dark #content div.product.prodpage-style3 .single_product_main_image:after,
+.kl-skin--dark div.product.prodpage-style3 .single_product_main_image:after {background-color: rgba(142, 142, 142, 0.1);}
+.kl-skin--dark #content div.product.prodpage-style3 .single_product_main_image,
+.kl-skin--dark div.product.prodpage-style3 .single_product_main_image { background-color: #151515;}
+.kl-skin--dark div.product.prodpage-style3 .wc-related-upsells-section { background-color: #151515;}
+/* Image and thumbs */
+.kl-skin--dark div.product.prodpage-style3 div.images div.thumbnails img {border:2px solid #101010;}
+.kl-skin--dark div.product.prodpage-style3 div.images div.thumbnails img:hover {border-color:#FFF;}

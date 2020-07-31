@@ -1,0 +1,23 @@
+.zn-achPointEdit {
+	font-size: 14px;
+	overflow: hidden;
+	text-align: center;
+}
+.zn-achPointEdit:before,
+.zn-achPointEdit:after {
+	background-color: rgba(0, 0, 0, 0.2);
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+.zn-achPointEdit:before {
+	right: 0.5em;
+	margin-left: -50%;
+}
+.zn-achPointEdit:after {
+	left: 0.5em;
+	margin-right: -50%;
+}

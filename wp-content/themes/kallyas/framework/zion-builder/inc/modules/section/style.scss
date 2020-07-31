@@ -1,0 +1,47 @@
+/* ZN Section */
+.zn-section {
+	padding-top:35px; padding-bottom: 35px; position: relative;
+	@media (min-width:768px){
+		&.zn-section--contentValign-middle,
+		&.zn-section--contentValign-bottom {display: flex;}
+		&.zn-section--contentValign-middle .zn-sectionContainer {align-self: center;}
+		&.zn-section--contentValign-bottom .zn-sectionContainer {align-self: flex-end;}
+	}
+}
+.zn-sectionContainer {
+	position: relative; width: 100%; max-width: 1400px; padding-left:20px; padding-right:20px; margin-left: auto; margin-right: auto;
+	&.zn-sectionContainer--full {max-width:100%;}
+	&.zn-sectionContainer--sidePad {padding-left:0; padding-right:0;}
+	@media (max-width: 1199px) {
+		max-width: 1140px;
+	}
+	@media (max-width: 991px) {
+		max-width: 980px;
+	}
+	@media (max-width: 767px){
+		max-width: 760px;
+	}
+}
+.zn-section--parallax {background: none !important;}
+
+/**
+ * Parallax Layers
+ */
+.zn-prLayer {
+	position: absolute; pointer-events: none; z-index: 0;
+	&.zn-prLayer--align-top-left {top: 0; left: 0;}
+	&.zn-prLayer--align-top-center {top:0; left:50%; transform:translateX(-50%);}
+	&.zn-prLayer--align-top-right {top:0; right:0;}
+	&.zn-prLayer--align-center-left {top:50%; left:0; transform:translateY(-50%);}
+	&.zn-prLayer--align-center {top:50%; left:50%; transform:translate(-50%, -50%);}
+	&.zn-prLayer--align-center-right {top:50%; right:0; transform:translateY(-50%);}
+	&.zn-prLayer--align-bottom-left {bottom:0; left:0;}
+	&.zn-prLayer--align-bottom-center {left:50%; transform:translateX(-50%);}
+	&.zn-prLayer--align-bottom-right {bottom:0; right: 0;}
+	// If layers are over container
+	&.zn-prLayer--over {z-index: 1; }
+	// Blur
+	&.zn-prLayer--blur-simple {filter:blur(3px)}
+	&.zn-prLayer--blur-deep {filter:blur(7px)}
+	&.zn-prLayer--blur-deeper {filter:blur(12px)}
+}

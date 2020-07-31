@@ -1,0 +1,79 @@
+/* Edit Mode */
+/* .znSmartCarouselMode--edit .znSmartCarousel-item {float: none; margin-bottom: 0; position: relative; padding: 0; } */
+.znSmartCarouselMode--edit .slick-list {overflow: visible;}
+
+.znSmartCarousel {position: relative;}
+.znSmartCarousel-container {padding-left: 15px; padding-right: 15px;}
+
+/* Nav */
+.znSmartCarousel-arr {z-index: 2; display: inline-block; position: relative;}
+.znSmartCarousel-prev {margin-right: 20px;}
+.znSmartCarousel-next {margin-left: 20px;}
+
+/* Navigation Position */
+.znSmartCarousel-navPosition--top-center,
+.znSmartCarousel-navPosition--bottom-center {margin-left: auto; margin-right: auto; text-align: center;  }
+.znSmartCarousel-navPosition--top-left,
+.znSmartCarousel-navPosition--bottom-left {float:left;}
+.znSmartCarousel-navPosition--top-right,
+.znSmartCarousel-navPosition--bottom-right {float:right;}
+/* Middle */
+.znSmartCarousel-navPosition--middle .znSmartCarousel-arr {position: absolute; top:50%; -webkit-transform:translateY(-50%); transform:translateY(-50%);}
+.znSmartCarousel-navPosition--middle .znSmartCarousel-prev {right:100%;}
+.znSmartCarousel-navPosition--middle .znSmartCarousel-next {left:100%;}
+
+/* Navigation Size */
+.znSmartCarousel-arr,
+.znSmartCarousel-arr svg {width: 18px; height: 18px; cursor: pointer }
+.znSmartCarousel-arr polyline {-webkit-transition: all .15s ease-out; transition: all .15s ease-out;}
+.element-scheme--dark .znSmartCarousel-arr polyline {stroke: white;}
+.znSmartCarousel-arr:hover polyline {stroke-width:35;}
+.znSmartCarousel-arr:active polyline {stroke-width:50;}
+/* style #1 - just bigger arrows */
+.znSmartCarousel-navStyle--s1 .znSmartCarousel-arr,
+.znSmartCarousel-navStyle--s1 .znSmartCarousel-arr svg {width: 28px; height: 28px; }
+
+
+/* pagination */
+.znSmartCarousel-pagi {}
+.znSmartCarousel-pagi a {display: inline-block; padding: 4px; opacity: .3; }
+.znSmartCarousel-pagi a:before {content:''; display: inline-block; width: 5px; height: 5px; background: #000; border-radius: 50%;}
+.element-scheme--dark .znSmartCarousel-pagi a:before {background: white;}
+.znSmartCarousel-pagi a:hover,
+.znSmartCarousel-pagi a.selected {opacity: .6;}
+/* Pagination Position */
+.znSmartCarousel-bulletsPosition--top-center,
+.znSmartCarousel-bulletsPosition--bottom-center {width: 100%; text-align: center;}
+.znSmartCarousel-bulletsPosition--top-left,
+.znSmartCarousel-bulletsPosition--bottom-left {float:left;}
+.znSmartCarousel-bulletsPosition--top-right,
+.znSmartCarousel-bulletsPosition--bottom-right {float:right;}
+
+/* Pagination inside Navigation */
+.znSmartCarousel-bulletsPosition--top-center,
+.znSmartCarousel-bulletsPosition--bottom-center {}
+
+
+/* Preloader */
+.znSmartCarousel-hasPreloader .znSmartCarousel-loading {-webkit-transition:visibility .3s ease-out, opacity .3s ease-out; transition: visibility .3s ease-out, opacity .3s ease-out; position: absolute; top: 50%; left: 50%; -webkit-transform:translate(-50%, -50%); transform:translate(-50%, -50%); width:50px; height: 50px;}
+.znSmartCarousel-hasPreloader .znSmartCarousel-loading:before {content:''; width: 100%; height: 100%; display: block; border:2px solid rgba(0,0,0,0.05); border-top-color:rgba(0,0,0,0.15); border-radius: 50%; -webkit-animation:spin-rotate .5s infinite linear; animation:spin-rotate .5s infinite linear;}
+.is-initialised .znSmartCarousel-loading {visibility:hidden; opacity: 0;}
+@-webkit-keyframes spin-rotate {
+	0% {-webkit-transform: rotate(0deg);transform: rotate(0deg) }
+	100% {-webkit-transform: rotate(360deg);transform: rotate(360deg) }
+}
+@keyframes spin-rotate {
+	0% {-webkit-transform: rotate(0deg);transform: rotate(0deg) }
+	100% {-webkit-transform: rotate(360deg);transform: rotate(360deg) }
+}
+/* Fade in the carousel */
+.znSmartCarousel-hasPreloader .znSmartCarousel-loadingContainer {visibility:hidden; opacity:0; -webkit-transition:visibility .3s ease-out, opacity .3s ease-out; transition: visibility .3s ease-out, opacity .3s ease-out;}
+.is-initialised .znSmartCarousel-loadingContainer {visibility:visible; opacity: 1;}
+
+.znSmartCarousel-item {outline:none;}
+
+/* Page Builder Mode hacks */
+
+
+.zn_pb_editor_enabled .znSmartCarousel-item .znSmartCarousel-container {-webkit-transform: translateX(-4999px);transform: translateX(-4999px);}
+.zn_pb_editor_enabled .znSmartCarousel-item.slick-current .znSmartCarousel-container {-webkit-transform: none;transform: none;}

@@ -1,0 +1,10 @@
+.zn-separator {
+	width: 100%; display: inline-block;
+
+	&.zn-separatorIcon-no {border-top: 2px solid #000;}
+	// Icon Enabled
+	&.zn-separatorIcon-yes .zn-separatorIcon {display: inline-block; color: #000; vertical-align: middle; margin-left: 20px; margin-right: 20px; font-size: 20px; }
+	&.zn-separatorIcon-yes .zn-separatorLine {content: ''; display: inline-block; border-top-style: solid; width: calc(50% - 50px); vertical-align: middle; }
+}
+/* If the separator is too small in height */
+.zn-isBuilderActive .sep-no-notification {margin-bottom: 2px;}

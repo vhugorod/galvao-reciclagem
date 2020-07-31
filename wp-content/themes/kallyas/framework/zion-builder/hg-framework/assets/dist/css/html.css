@@ -1,0 +1,11 @@
+/* Error Messages */
+.znhgfw-error-message {
+	background: red;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+}
+
+.zn_class_tabbed_form{
+	overflow: hidden;
+}

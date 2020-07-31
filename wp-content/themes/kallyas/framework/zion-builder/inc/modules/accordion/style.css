@@ -1,0 +1,44 @@
+@media (max-width: 767px) { .zn-accordion { margin-bottom: 30px; } }
+
+.zn-accordion-accTitle { margin: 0; }
+
+.zn-accordion-accGroup { margin-bottom: 2px; padding: 0; border: 1px solid #e6e5e5; background-color: white; }
+
+.zn-accordion-accGroup + .zn-accordion-accGroup { margin-top: 0; }
+
+.zn-accordion-accButton { display: block; width: 100%; text-align: left; position: relative; margin: 0; border: 0; color: #cc9933; padding: 16px 60px 15px 20px; font-size: 14px; font-weight: 600; outline: 0; -webkit-transition: all .3s ease-out; transition: all .3s ease-out; }
+
+.zn-accordion-accButton:not(.collapsed), .zn-accordion-accButton:hover, .zn-accordion-accButton:focus { color: #1a1919; background-color: #fcfcfc; }
+
+.zn-accordion-accButton:before, .zn-accordion-accButton:after { position: absolute; content: ''; width: 8px; height: 2px; display: block; background: rgba(0, 0, 0, 0.2); -webkit-transition: all .3s ease-out; transition: all .3s ease-out; }
+
+.zn-accordion-accButton:before { right: 20px; top: 50%; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+.zn-accordion-accButton:after { right: 15px; top: 50%; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+
+.zn-accordion-accButton.collapsed:before { -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+
+.zn-accordion-accButton.collapsed:after { -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+.zn-accordion-accContent { padding-top: 20px; padding-bottom: 20px; border-top: 1px solid #e6e5e5; }
+
+.zn-accordion-accContent p:last-child { margin-bottom: 0; }
+
+.zn-accordion-panelCollapse { padding: 0 20px; }
+
+/* Dark */
+.zn-accordion--theme-dark .zn-accordion-accGroup { border-color: #191a1a; background-color: black; color: rgba(255, 255, 255, 0.8); }
+
+.zn-accordion--theme-dark .zn-accordion-accButton:not(.collapsed), .zn-accordion--theme-dark .zn-accordion-accButton:hover, .zn-accordion--theme-dark .zn-accordion-accButton:focus { color: #e5e6e6; background-color: #030303; }
+
+.zn-accordion--theme-dark .zn-accordion-accButton:before, .zn-accordion--theme-dark .zn-accordion-accButton:after { background: rgba(255, 255, 255, 0.2); }
+
+.zn-accordion--theme-dark .zn-accordion-accContent { border-top-color: #191a1a; }
+
+/* If Slick inside */
+.zn-accordion-panelCollapse .zn-accordion-accContent .slick-slider { opacity: 0; -webkit-transition: opacity .35s ease-out .5s; transition: opacity .35s ease-out .5s; visibility: visible; display: block; }
+
+.zn-accordion-panelCollapse.in .zn-accordion-accContent .slick-slider { opacity: 1; }
+
+/* Fix for PB mode */
+.zn-accordion-panelCollapse:not(.in) .zn_element_zncolumn > .zn_el_options_bar, .zn-accordion-panelCollapse.collapsing .zn_element_zncolumn > .zn_el_options_bar { display: none; }

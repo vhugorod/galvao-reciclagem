@@ -1,0 +1,21 @@
+/* Alignment */
+.znColumnElement-innerWrapper {
+	width: 100%; position: relative;
+	&--halign-center,
+	&--halign-right,
+	&--valign-center,
+	&--valign-bottom {display:flex;}
+	&--halign-center {justify-content: center;}
+	&--halign-right {justify-content: flex-end;}
+	&--valign-center > .znColumnElement-innerContent {align-self: center;}
+	&--valign-bottom > .znColumnElement-innerContent {align-self: flex-end;}
+	.znColumnElement-innerContent {width: 100%; position: relative;}
+}
+
+/* min-height is unsupported in IE11 for Flex container, so here's the tweak */
+.is-ie11 .znColumnElement-innerWrapper {
+    &--valign-center,
+    &--valign-bottom {display: table;}
+    &--valign-center > .znColumnElement-innerContent {display: table-cell; vertical-align: middle}
+    &--valign-bottom > .znColumnElement-innerContent {display: table-cell; vertical-align: bottom}
+}

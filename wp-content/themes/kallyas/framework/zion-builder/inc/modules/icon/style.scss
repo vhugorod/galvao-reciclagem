@@ -1,0 +1,13 @@
+/* Icon Box - Default element */
+.zn-iconIco {line-height: 1; font-size: 42px; display: inline-block; transition: all .2s cubic-bezier(0.215, 0.610, 0.355, 1.000); position:relative; text-align: center;}
+span.zn-iconIco {font-size: 42px;}
+.zn-iconIco--eq .zn-iconIco::before {position: absolute; top: calc( 50% - 0.5em ); line-height: 1; left: 0; right: 0; margin: 0 auto;}
+img.zn-iconIco {width: 100px;}
+
+/* Shaped icons - Circle Stroke */
+.zn-iconIco--border .zn-iconIco {box-shadow: 0 0 0 2px currentColor; }
+.zn-iconIco--border .zn-iconIco:hover {box-shadow: 0 0 0 4px currentColor;}
+
+/* Animate float */
+.zn-icon--animFloat .zn-iconIco {animation-duration: 1s; animation-name: floatingAnim; animation-iteration-count: infinite; animation-direction: alternate; animation-timing-function:ease-in-out;}
+@keyframes floatingAnim {from {transform:translateY(-8px); } to {transform:translateY(8px); } }

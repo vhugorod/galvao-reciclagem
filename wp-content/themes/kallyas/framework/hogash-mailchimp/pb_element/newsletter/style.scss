@@ -1,0 +1,179 @@
+.zn-mcNl-form {
+	border-radius: 4px;
+	position: relative;
+	margin-bottom: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.zn-mcNl-input,
+.zn-mcNl-submit {
+	height:50px;
+	float:left;
+	border:0;
+	vertical-align: middle;
+	outline:none;
+	margin:0;
+	top:0;
+	border-radius: 0;
+	transition: all .2s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.zn-mcNl-input {
+	width:calc(100% - 130px);
+	background:white;
+	border-radius: 3px;
+	padding-left: 20px;
+	transition: padding-left .15s ease-out;
+	font-size: 13px;
+
+	&:focus { padding-left: 30px; }
+	&::-webkit-input-placeholder {color: rgba(black, .4); }
+	&:-moz-placeholder {color: rgba(black, .4); }
+	&::-moz-placeholder {color: rgba(black, .4); }
+	&:-ms-input-placeholder {color: rgba(black, .4); }
+}
+.zn-mcNl-submit {
+	width:130px; font-size: 16px;
+	&.is-submitting {opacity: .4; pointer-events: none;}
+}
+
+/* Corners workaround for inputs */
+.zn-mcNl--radius-rounded {
+	.zn-mcNl-input,
+	.zn-mcNl-submit {border-radius: 3px !important;}
+}
+.zn-mcNl--radius-round {
+	.zn-mcNl-input,
+	.zn-mcNl-submit {border-radius: 200px !important;}
+}
+.zn-mcNl--radius-square {
+	.zn-mcNl-input,
+	.zn-mcNl-submit {border-radius: 0 !important;}
+}
+
+/* Normal Style */
+.zn-mcNl--style-normal .zn-mcNl-submit {
+	color:white; background-color: #cc9933;
+	&:hover,
+	&:focus { background-color: black; }
+}
+/* Normal with transparent button */
+.zn-mcNl--style-normal2 .zn-mcNl-submit {
+	color:#999; background-color: white; position: relative;
+	&:hover,
+	&:focus { color: #767676; }
+}
+/* Transparent */
+.zn-mcNl--style-transparent {
+	.zn-mcNl-input {
+		border:1px solid rgba(white,.7); background:rgba(white,.3); color:white;
+		&::-webkit-input-placeholder {color: white; }
+		&:-moz-placeholder {color: white; }
+		&::-moz-placeholder {color: white; }
+		&:-ms-input-placeholder {color: white; }
+	}
+	.zn-mcNl-submit {
+		color:white; background-color: #cc9933;
+		&:hover { background-color: black; }
+	}
+}
+
+/* Transparent with transparent button */
+.zn-mcNl--style-transparent2 {
+	.zn-mcNl-input {
+		border:1px solid rgba(white,.7); background:rgba(white,.1); color:white;
+		&::-webkit-input-placeholder {color: white; }
+		&:-moz-placeholder {color: white; }
+		&::-moz-placeholder {color: white; }
+		&:-ms-input-placeholder {color: white; }
+	}
+	.zn-mcNl-submit {
+		color:white; background:rgba(white,.1); border:1px solid rgba(white,.7); position: relative;
+		&:hover,
+		&:focus { color:rgba(white,.8); }
+	}
+}
+
+.znhg-gdpr-label {
+	margin: 10px 0;
+	width: 100%;
+}
+
+/* Layout - single */
+.zn-mcNl--layout-single {
+	&.zn-mcNl--shadow .zn-mcNl-form {box-shadow: 0 10px 10px -10px rgba(black, 0.35);}
+	&.zn-mcNl--radius-rounded .zn-mcNl-input {border-radius: 4px 0 0 4px;}
+	&.zn-mcNl--radius-round .zn-mcNl-input,
+	&.zn-mcNl--radius-rounded .zn-mcNl-input {border-top-right-radius:0 !important; border-bottom-right-radius:0 !important; }
+	&.zn-mcNl--radius-rounded .zn-mcNl-submit {border-radius: 0 4px 4px 0;}
+	&.zn-mcNl--radius-round .zn-mcNl-submit,
+	&.zn-mcNl--radius-rounded .zn-mcNl-submit {border-top-left-radius:0 !important; border-bottom-left-radius:0 !important; }
+	&.zn-mcNl--style-normal2 .zn-mcNl-submit:after { content:''; position: absolute; width: 1px; height:86%; top:7%; left:0; background-color: rgba(0,0,0,0.1) }
+	&.zn-mcNl--style-transparent .zn-mcNl-input { border-right-width:0;}
+	&.zn-mcNl--style-transparent2 .zn-mcNl-input {border-right-width:0;}
+	&.zn-mcNl--style-transparent2 .zn-mcNl-submit { border-left-width:0; }
+	&.zn-mcNl--style-transparent2 .zn-mcNl-submit:after { content:''; position: absolute; width: 1px; height:86%; top:7%; left:0; background-color: rgba(white,0.7)}
+}
+/* Layout - split */
+.zn-mcNl--layout-separate .zn-mcNl-input {width: calc(100% - 140px); margin-right: 10px;}
+/* Layout - rows */
+.zn-mcNl--layout-rows {
+	.zn-mcNl-input { width:100%; display: block; margin-bottom: 10px }
+	.znhg-gdpr-label {
+		order: 2;
+		margin-top: 0px;
+	}
+	.zn-mcNl-submit {
+		order:3
+	}
+}
+/* Layout - rows full */
+.zn-mcNl--layout-rows-full {
+	.zn-mcNl-input { margin-bottom: 10px }
+	.zn-mcNl-input,
+	.zn-mcNl-submit { width:100% !important; display: block; }
+	.znhg-gdpr-label {
+		order: 2;
+		margin-top: 0px;
+	}
+	.zn-mcNl-submit {
+		order:3
+	}
+}
+
+/* Lined light */
+.zn-mcNl--style-lined_light {
+	.zn-mcNl-input {
+		border:2px solid white; background:transparent; color:white;
+		&::-webkit-input-placeholder {color: white; }
+		&:-moz-placeholder {color: white; }
+		&::-moz-placeholder {color: white; }
+		&:-ms-input-placeholder {color: white; }
+	}
+	.zn-mcNl-submit { color:white; background-color: #cc9933; }
+	.zn-mcNl-submit:hover { background-color: #333; }
+}
+
+/* Lined Dark */
+.zn-mcNl--style-lined_dark {
+	.zn-mcNl-input {
+		border:2px solid #333; background:transparent; color:#333;
+		&::-webkit-input-placeholder {color: #333; }
+		&:-moz-placeholder {color: #333; }
+		&::-moz-placeholder {color: #333; }
+		&:-ms-input-placeholder {color: #333; }
+	}
+	.zn-mcNl-submit { color:#333; background-color: #cc9933; }
+	.zn-mcNl-submit:hover { background-color: #cecece; }
+}
+
+/* Field with Error */
+.has-error .zn-mcNl-input {color:#f00; border-color:currentColor; box-shadow: inset 0 1px 1px rgba(black,0.075), 0 0 10px currentColor; }
+
+/* MQ's */
+@media screen and (max-width: 767px){
+	.zn-mcNl-submit { width:130px !important; }
+	.zn-mcNl-input { width:calc(100% - 130px) !important;  }
+	.zn-mcNl--layout-separate .zn-mcNl-input {width: calc(100% - 140px) !important;}
+}

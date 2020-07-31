@@ -1,0 +1,193 @@
+/* CONFIRM MODAL */
+.zn_modal_confirm p {margin-bottom: 30px;font-size: 15px;line-height:27px;color:#767676;}
+.zn_modal_confirm.zn_modal_message p {margin-bottom: 0px;}
+.zn_modal_confirm .btn {margin: 10px;display: block;}
+
+.zn-modal,
+.zn-modal h1,
+.zn-modal h2,
+.zn-modal h3,
+.zn-modal h4,
+.zn-modal h5,
+.zn-modal h6,
+.zn_front_pb_wrap {
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/** ZN MODAL CSS */
+.zn-modal-backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(214, 214, 214, 1);
+	z-index: 159998;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.zn-modal-backdrop.zn-modal-backdrop-visible {
+	opacity: 0.8;
+}
+
+.zn-modal-transparent {
+	background: transparent;
+}
+
+.zn-modal {
+	opacity: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	-webkit-transition: opacity 0.4s ease-in-out;
+	transition: opacity 0.4s ease-in-out;
+	top: 0;
+	left: 0;
+	z-index: 100099;
+	font-size: 14px;
+    line-height:1.5;
+}
+
+/* Fixes modals on WP Customizer */
+.wp-customizer .zn-modal-backdrop { z-index: 559998; }
+.wp-customizer .zn-modal { z-index: 559999; }
+
+.zn-modal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.zn-modal.zn-modal-visible {
+	opacity: 1;
+}
+
+.zn-modal-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	padding: 0 8px;
+	text-align: center;
+}
+
+.zn-modal-wrapper:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+.zn-modal-inner {
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	box-shadow: rgba(0,0,0,0.5) 0 4px 30px;
+	position: relative;
+	background: #FFF;
+	max-width: 870px;
+	margin: 20px auto;
+	text-align: left;
+	vertical-align: middle;
+	display: inline-block;
+	width: 100%;
+	height:auto !important;
+}
+.zn-modal-inner {color:#535353;}
+.zn-modal-inner a {color:#217978;}
+.zn-modal-inner a:hover {color:#000;}
+.zn-modal-inner.minimized {overflow: hidden; height: 42px !important; }
+
+.zn-modal.zn-modal-visible .zn-modal-inner {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+/* Make modal transparent while dragging */
+.zn-modal.zn-modal-visible .zn-modal-inner.ui-draggable-dragging {box-shadow: none; background:none;}
+.zn-modal.zn-modal-visible .zn-modal-inner.ui-draggable-dragging .zn-modal-inner-header {background:#fff; box-shadow:rgba(0,0,0,0.5) 0 4px 30px;}
+.zn-modal.zn-modal-visible .zn-modal-inner.ui-draggable-dragging .zn-modal-inner-content,
+.zn-modal.zn-modal-visible .zn-modal-inner.ui-draggable-dragging .zn-modal-inner-footer {-webkit-transition:opacity .15s ease-out; transition:opacity .15s ease-out; opacity:1; -webkit-backface-visibility:hidden;}
+.zn-modal.zn-modal-visible .zn-modal-inner.ui-draggable-dragging .zn-modal-inner-content,
+.zn-modal.zn-modal-visible .zn-modal-inner.ui-draggable-dragging .zn-modal-inner-footer {opacity:0;}
+
+.zn-modal-inner-header {
+	border-bottom: 1px solid #E8E8E8;
+	overflow: hidden;
+	cursor: move;
+}
+.zn-modal-title {
+	float: left;
+	margin-right: 45px;
+	padding: 10px 15px;
+	font-size: 18px;
+	line-height: 1.2;
+	margin-bottom: 0;
+	font-weight: 300;
+	margin: 0;
+}
+
+.zn-modal-close,
+.zn-modal-resize {
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-decoration: none;
+	text-align: center;
+	opacity: 0.65;
+	font-style: normal;
+	font-size: 28px;
+	font-family: Arial, Baskerville, monospace;
+	z-index: 1;
+	color: #2C2C2C;
+}
+.zn-modal-close[data-tooltip],
+.zn-modal-resize[data-tooltip] {position: absolute; }
+.zn-modal-resize {right:44px; text-align: right;}
+.zn-modal-resize span { vertical-align: middle; margin-top: -4px;border-right: 1px solid #ccc;padding-right: 15px;display: inline-block;width: 34px;}
+.zn-modal-resize span:before {-webkit-transform: rotate(90deg);-ms-transform: rotate(90deg);transform: rotate(90deg); display: inline-block;}
+
+.zn-modal-inner-content {
+	/*max-height: 80%;*/
+	min-height: 100px;
+	overflow-y: auto;
+	position: relative;
+}
+
+.zn-modal-loading:before { content:" "; position: absolute; width: 100%;height: 100%;top: 0;left: 0;z-index: 99999999;display: block;background:#fff url("../img/ajax-loader.gif") no-repeat center center; }
+
+
+/* MODAL CONFIRM CSS */
+.zn_modal_confirm {text-align: center;padding: 35px 30px;}
+.zn_modal_confirm p {margin-bottom: 30px;font-size: 15px;line-height:27px;color:#767676;}
+.zn_modal_confirm .btn {margin: 10px;display: block;}
+
+/* MODAEL EDIT CSS */
+.zn-modal-form { padding: 20px; max-height: 400px; overflow:auto; overflow-x:hidden;-webkit-transition: max-height .2s ease-in-out, min-height .2s ease-in-out;transition: max-height .2s ease-in-out, min-height .2s ease-in-out; min-height:0;}
+.zn-modal-xl .zn-modal-form { max-height: 75vh; }
+.zn-modal .zn-modal-inner-content > .zn-modal-form.zn-modal-group-form { display: block; }
+
+
+/* MODAL CONTENT TWEAKS */
+.zn-modal-inner-header a { text-decoration: none; }
+.zn-modal-open #wp-link-wrap { z-index: 9999999; }
+.zn-modal-open #wp-link-backdrop { z-index: 9999998; }
+
+.znpb_modal_options_footer {border-top: 2px solid #E8E8E8; background: #F5F5F5; text-align: right;}
+.znpb_modal_options_footer .zn-btn-confirm {margin: 10px; width: auto; padding: 10px 30px;}

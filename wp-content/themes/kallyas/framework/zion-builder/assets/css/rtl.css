@@ -1,0 +1,8 @@
+.zn-bgSource-imageParallax.is-fixed {
+    left:0;
+    right:-100vw;
+}
+
+.zn-bgSource-imageParallax.is-fixed.is-visible{
+    right:0;
+}

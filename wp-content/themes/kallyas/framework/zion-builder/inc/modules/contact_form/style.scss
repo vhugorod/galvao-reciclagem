@@ -1,0 +1,118 @@
+/* Contact form */
+.zn-contactForm {
+	position: relative; padding-top: 10px;
+	&.zn-contactForm--loading { opacity: 0.5; }
+	// States
+	.zn-formItem--valid .zn-formItem-field { outline: 1px solid #00DF00; }
+	.zn-formItem--invalid .zn-formItem-field{ outline: 1px solid red; }
+	.zn-formItem-wrapper {
+		margin-bottom: 30px;
+		&.zn-formItem--hidden,
+		&.zn-formItem--response,
+		&.zn-formItem--submit {margin-bottom: 0;}
+		&::before,
+		&::after {content: " "; display: table;}
+		&::after {clear: both;}
+	}
+	.zn-formItem-field {}
+	.zn_contact_ajax_response:not(:empty) {width: 100%; margin-bottom: 20px; }
+	// Checkbox
+	.zn-formItem-field--checkbox + label { margin-left:15px; }
+	.zn-formItem-field--radio + label { margin-left:15px; }
+	// Radio
+	.zn-formItem--radio {
+		.zn-formItem-label {display: block;}
+		.zn-formItem-fieldWrapper.is-inline {display: inline-block; margin-right: 30px;}
+	}
+}
+
+// Datepicker
+.zn-formItem--datepicker {
+	.zn-formItem-fieldWrapper {
+		&:not(:only-child) {width: calc(50% - 20px); float:left;}
+		& + .zn-formItem-fieldWrapper {margin-left:40px;}
+	}
+}
+/* Misc visuals
+----------------------------------*/
+.ui-datepicker {
+	width: 17em; padding: .2em .2em 0; display: none;
+	.ui-datepicker-header {position: relative; padding: .2em 0; }
+	.ui-datepicker-prev,
+	.ui-datepicker-next {position: absolute; top: 2px; width: 1.8em; height: 1.8em; }
+	.ui-datepicker-prev {left: 8px; }
+	.ui-datepicker-next {right: 8px; }
+	.ui-datepicker-title {
+		margin: 0 2.3em; line-height: 1.8em; text-align: center;
+		select {font-size: 1em; margin: 1px 0; }
+	}
+	select.ui-datepicker-month,
+	select.ui-datepicker-year {width: 49%; }
+	table {	width: 100%; font-size: .9em; border-collapse: collapse; margin: 0 0 .4em; }
+	th {padding: .7em .3em; text-align: center; font-weight: bold; border: 0; }
+	td {
+		border: 0; padding: 1px;
+		span,
+		a {display: block; padding: .2em; text-align: right; text-decoration: none; }
+	}
+	.ui-datepicker-buttonpane {
+		background-image: none; margin: .7em 0 0 0; padding: 0 .2em; border-left: 0; border-right: 0; border-bottom: 0;
+		button {float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width: auto; overflow: visible; }
+		button.ui-datepicker-current {float: left; }
+	}
+}
+
+/* Melon Skin */
+.ll-skin-melon {
+	font-size: 14px;
+	.ui-widget {font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; background: #2e3641; border: none; border-radius: 0;}
+	.ui-datepicker-header {border: none; background: transparent; font-weight: normal; font-size: 15px; }
+	.ui-datepicker-header .ui-state-hover {background: transparent; border-color: transparent; cursor: pointer; border-radius: 0;}
+	.ui-datepicker {
+		width: auto;
+		padding: 0;
+		margin-top: 0px;
+		.ui-datepicker-title {margin-top: .4em; margin-bottom: .3em; color: #e9f0f4; }
+		.ui-datepicker-next,
+		.ui-datepicker-prev {top: .6em; border:none; }
+		.ui-datepicker-next span,
+		.ui-datepicker-prev span {	color: #fff; width: auto; line-height: 1.8em; position: relative; font-style: normal; font-size: 11px; font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; display: block; margin: 0; vertical-align: middle;}
+		table {margin: 0; }
+		th {padding: 1em 0; color: #ccc; font-size: 12px; font-weight: normal; border: none; border-top: 1px solid #3a414d; }
+		td {background: #4D4D4D; border: none; padding: 0; }
+	}
+	td .ui-state-default {background: transparent; border: none; text-align: center; padding: .5em; margin: 0; font-weight: normal; color: #efefef; font-size: 12px; }
+	td .ui-state-highlight {background: rgba(0, 0, 0, 0.15); }
+	.ui-state-disabled  {opacity: 1; }
+	.ui-state-disabled .ui-state-default {color: #888; }
+	td .ui-state-active,
+	td .ui-state-hover {background: #2e3641; }
+}
+
+
+/* TIMEPICKER */
+.cf-elm-tp {
+	&.ui-timepicker-wrapper {
+		overflow-y: auto; height: 150px; width: 9em; outline: none; z-index: 999999; margin: 0; font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; background: #2e3641;
+		&.ui-timepicker-with-duration {width: 13em; }
+		&.ui-timepicker-with-duration.ui-timepicker-step-30,
+		&.ui-timepicker-with-duration.ui-timepicker-step-60 {width: 11em; }
+	}
+	.ui-timepicker-duration {margin-left: 5px; color: #888; }
+	.ui-timepicker-list {
+		margin: 0; padding: 0; list-style: none;
+		&:hover .ui-timepicker-duration {color: #888; }
+		li { padding: 5px 0; cursor: pointer; white-space: nowrap; color: #FFF; list-style: none; margin: 0; font-size: 12px; line-height: 1.6; text-align: center;}
+		li:not(:first-child) {border-top:1px solid rgba(255,255,255,0.2);}
+		li:hover,
+		li.ui-timepicker-selected,
+		.ui-timepicker-selected:hover {background: #4D4D4D; color: #fff; }
+		li.ui-timepicker-selected .ui-timepicker-duration,
+		li:hover .ui-timepicker-duration {color: #ccc; }
+		li.ui-timepicker-disabled,
+		li.ui-timepicker-disabled:hover,
+		li.ui-timepicker-selected.ui-timepicker-disabled {color: #888; cursor: default; }
+		li.ui-timepicker-disabled:hover,
+		li.ui-timepicker-selected.ui-timepicker-disabled {background: #f2f2f2; }
+	}
+}

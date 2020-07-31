@@ -1,0 +1,29 @@
+/*GOOGLE MAP*/
+.zn-googleMap {
+	overflow: hidden; width: 100%; height: 450px; position: relative;
+	// Visit Us Container
+	.zn-visit-container { z-index: 2; position: absolute;  display: inline-block; width: auto; background-color: white; box-shadow: 0 10px 10px -10px rgba(black, 0.45); }
+	.zn-visit-startLocation { width: 120px; background-color: transparent; text-indent: 10px; border: 0; height: 38px; color: rgba(black, 0.5); box-shadow:none; -webkit-transition: all .3s ease-in-out; transition: all .3s ease-in-out; outline: 0; border-bottom: 1px solid rgba(black, 0.1); }
+	.zn-visit-startLocation:focus { width: 260px; color: #333; border-color: black; box-shadow: none; }
+	.zn-visit-startLocation:focus,
+	.zn-visit-container.startLocationNotEmpty .zn-visit-startLocation { width: 270px; }
+	.zn-visit-startLocation::-webkit-input-placeholder { color: rgba(black, 0.25); }
+	.zn-visit-startLocation:-moz-placeholder { color: rgba(black, 0.25); }
+	.zn-visit-startLocation::-moz-placeholder {  color: rgba(black, 0.25); }
+	.zn-visit-startLocation:-ms-input-placeholder { color: rgba(black, 0.25); }
+	.zn-visit-removeRoute { opacity: 0; position: absolute; right: 10px; top: calc(50% - 0.5em); line-height: 1; color: rgba(black, 0.5); cursor: pointer; transition: opacity .3s ease-in-out; }
+	.zn-visit-removeRoute:hover { color: rgba(black, 0.8); }
+	.zn-visit-startLocation:focus + .zn-visit-removeRoute,
+	.zn-visit-container.startLocationNotEmpty .zn-visit-removeRoute { opacity: 1; }
+	.zn-visit-startLocation.startLocationInvalid { border-bottom-color: #f00; }
+}
+.zn-mapCanvas { height: 100%; width: 100%; }
+
+.zn-visit-container.zn-visit--pos-top-left { left: 30px; top: 20px; }
+.zn-visit-container.zn-visit--pos-middle-left { left:30px; top:50%; transform: translateY(-50%);}
+.zn-visit-container.zn-visit--pos-bottom-left { left:30px; bottom:40px;}
+.zn-visit-container.zn-visit--pos-top-right { right:30px; top:20px; }
+.zn-visit-container.zn-visit--pos-middle-right {right:30px; top:50%; transform: translateY(-50%); }
+.zn-visit-container.zn-visit--pos-bottom-right {right:30px; bottom:40px;}
+.zn-visit-container.zn-visit--pos-top-center { top:20px; left:50%; transform: translateX(-50%);}
+.zn-visit-container.zn-visit--pos-bottom-center {bottom:40px; left:50%; transform: translateX(-50%);}

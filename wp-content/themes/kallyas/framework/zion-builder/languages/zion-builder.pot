@@ -1,0 +1,3233 @@
+# Copyright (C) 2019 zion-builder
+# This file is distributed under the same license as the zion-builder package.
+msgid ""
+msgstr ""
+"Project-Id-Version: zion-builder\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Hogash\n"
+"Report-Msgid-Bugs-To: https://my.hogash.com/support/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: buildplugin/zion-builder/inc/admin/ZionPageBuilderAdmin.php:32, inc/admin/ZionPageBuilderAdmin.php:32
+msgid "You don't have permission to edit this page!"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/admin/ZionPageBuilderAdmin.php:55, inc/admin/ZionPageBuilderAdmin.php:55
+msgid "Edit with Zion builder"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/admin/ZionPageBuilderAdmin.php:74, inc/admin/ZionPageBuilderAdmin.php:74
+msgid "Enable Zion builder"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/admin/ZionPageBuilderAdmin.php:75, inc/admin/ZionPageBuilderAdmin.php:75
+msgid "Disable Zion builder"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:121, inc/editor/class-page-builder-ajax.php:121
+msgid "You can use this css selector to customize this element"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:121, inc/editor/class-page-builder-ajax.php:121
+msgid "CSS selector:"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:365, inc/editor/class-page-builder-ajax.php:365
+msgid "Element name"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:366, inc/editor/class-page-builder-ajax.php:366
+msgid "Enter a name for this saved element. Please note that the name must be unique!"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:370, inc/editor/class-page-builder-ajax.php:370
+msgid "My awesome element"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:378, inc/editor/class-page-builder-ajax.php:378
+msgid "Something went wrong. Please try again"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:383, inc/editor/class-page-builder-ajax.php:383
+msgid "Save element"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:384, inc/editor/class-page-builder-ajax.php:384
+msgid "Export element"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:436, inc/editor/class-page-builder-ajax.php:436
+msgid "Element successfully saved."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:438, inc/editor/class-page-builder-ajax.php:438
+msgid "There was a problem saving the element."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:480, inc/editor/class-page-builder-ajax.php:480
+msgid "Template successfully saved."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:482, inc/editor/class-page-builder-ajax.php:482
+msgid "There was a problem saving the template."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:510, inc/editor/class-page-builder-ajax.php:510
+msgid "Template deleted successfully"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/class-page-builder-ajax.php:513, inc/editor/class-page-builder-ajax.php:513
+msgid "There was a problem. The template was not deleted"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:83, inc/editor/ZionEditor.php:83
+msgid "Custom css"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:87, inc/editor/ZionEditor.php:87
+msgid "Custom CSS"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:88, inc/editor/ZionEditor.php:88
+msgid "Use this field to add your own custom css that will be applied to the current page."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:100, inc/editor/ZionEditor.php:100
+msgid "Custom JS"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:101, inc/editor/ZionEditor.php:101
+msgid "Use this field to add your own custom javascript code that will be applied to the current page."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:123, inc/editor/ZionEditor.php:123
+msgid "Element display?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:124, inc/editor/ZionEditor.php:124
+msgid "Using this option you can show/hide the element for different type of visitors."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:129, inc/editor/ZionEditor.php:129
+msgid "Show for all"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:130, inc/editor/ZionEditor.php:130
+msgid "Show only for logged in users"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:131, inc/editor/ZionEditor.php:131
+msgid "Show only for visitors ( not logged in )"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:147, inc/editor/ZionEditor.php:147
+msgid "Hide element on breakpoints"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:148, inc/editor/ZionEditor.php:148
+msgid "Choose to hide the element on either desktop, mobile or tablets. Please know that elements will not be hidden in Page builder edit mode, only normal View mode."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:154, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:463, inc/editor/ZionEditor.php:154, inc/modules/contact_form/contact_form.php:463
+msgid "Large"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:155, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:464, inc/editor/ZionEditor.php:155, inc/modules/contact_form/contact_form.php:464
+msgid "Medium"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:156, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:465, inc/editor/ZionEditor.php:156, inc/modules/contact_form/contact_form.php:465
+msgid "Small"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:157, inc/editor/ZionEditor.php:157
+msgid "Extra Small"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:437, inc/editor/ZionEditor.php:437
+msgid "This element is hidden!"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:520, inc/editor/ZionEditor.php:520
+msgid "All elements"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:524, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:342, inc/editor/ZionEditor.php:524, inc/modules/contact_form/contact_form.php:342
+msgid "Full width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:528, inc/editor/ZionEditor.php:528
+msgid "Layouts"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:532, buildplugin/zion-builder/inc/modules/text_box/text_box.php:108, inc/editor/ZionEditor.php:532, inc/modules/text_box/text_box.php:108
+msgid "Content"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:536, inc/editor/ZionEditor.php:536
+msgid "Single elements"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:540, buildplugin/zion-builder/inc/modules/image/image.php:127, inc/editor/ZionEditor.php:540, inc/modules/image/image.php:127
+msgid "Media"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:544, inc/editor/ZionEditor.php:544
+msgid "Headers"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:548, inc/editor/ZionEditor.php:548
+msgid "Widgets"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:575, inc/editor/ZionEditor.php:575
+msgid "Clear"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:576, buildplugin/zion-builder/inc/modules/button/button.php:269, buildplugin/zion-builder/inc/modules/column/column.php:27, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:443, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:462, buildplugin/zion-builder/inc/modules/icon/icon.php:260, buildplugin/zion-builder/inc/modules/icon/icon.php:274, buildplugin/zion-builder/inc/modules/icon/icon.php:288, buildplugin/zion-builder/inc/modules/image/image.php:83, buildplugin/zion-builder/inc/modules/image/image.php:97, buildplugin/zion-builder/inc/modules/image/image.php:111, buildplugin/zion-builder/inc/modules/separator/separator.php:126, buildplugin/zion-builder/inc/modules/separator/separator.php:140, buildplugin/zion-builder/inc/modules/separator/separator.php:154, inc/editor/ZionEditor.php:576, inc/modules/button/button.php:269, inc/modules/column/column.php:27, inc/modules/contact_form/contact_form.php:443, inc/modules/contact_form/contact_form.php:462, inc/modules/icon/icon.php:260, inc/modules/icon/icon.php:274, inc/modules/icon/icon.php:288, inc/modules/image/image.php:83, inc/modules/image/image.php:97, inc/modules/image/image.php:111, inc/modules/separator/separator.php:126, inc/modules/separator/separator.php:140, inc/modules/separator/separator.php:154
+msgid "Default"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/editor/ZionEditor.php:577, inc/editor/ZionEditor.php:577
+msgid "Select Color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:385, inc/helpers/helpers-frontend.php:385
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:390, inc/helpers/helpers-frontend.php:390
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:733, inc/helpers/helpers-frontend.php:733
+msgid "PLAY VIDEO"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:866, inc/helpers/helpers-frontend.php:866
+msgid "Appear animation"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:867, inc/helpers/helpers-frontend.php:867
+msgid "Select the appear animation for this element when it comes into the viewport"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:885, inc/helpers/helpers-frontend.php:885
+msgid "Animation Duration"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:886, inc/helpers/helpers-frontend.php:886
+msgid "Select the type of duration."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:891, inc/helpers/helpers-frontend.php:891
+msgid "Fast (500ms)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:892, inc/helpers/helpers-frontend.php:892
+msgid "Normal (1000ms)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:893, inc/helpers/helpers-frontend.php:893
+msgid "Slow (2000ms)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:897, inc/helpers/helpers-frontend.php:897
+msgid "Animation Delay"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:898, inc/helpers/helpers-frontend.php:898
+msgid "Enter the number of milliseconds the animation is delayed after the element comes into the viewport. Please note that some elements can contain multiple elements that will animate progressively based on this value."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:979, inc/helpers/helpers-frontend.php:979
+msgid "Edit element padding & margins for each device breakpoint. "
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:980, inc/helpers/helpers-frontend.php:980
+msgid "This will enable you to have more control over the padding of the element on each device. Click to see <a href='http://hogash.d.pr/1f0nW' target='_blank'>how box-model works</a>."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:986, buildplugin/zion-builder/inc/modules/column/column.php:68, buildplugin/zion-builder/inc/modules/column/column.php:279, buildplugin/zion-builder/inc/modules/heading/heading.php:58, buildplugin/zion-builder/inc/modules/section/section.php:204, buildplugin/zion-builder/inc/modules/text_box/text_box.php:134, inc/helpers/helpers-frontend.php:986, inc/modules/column/column.php:68, inc/modules/column/column.php:279, inc/modules/heading/heading.php:58, inc/modules/section/section.php:204, inc/modules/text_box/text_box.php:134
+msgid "LARGE"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:987, buildplugin/zion-builder/inc/modules/column/column.php:69, buildplugin/zion-builder/inc/modules/column/column.php:280, buildplugin/zion-builder/inc/modules/heading/heading.php:59, buildplugin/zion-builder/inc/modules/section/section.php:205, buildplugin/zion-builder/inc/modules/text_box/text_box.php:135, inc/helpers/helpers-frontend.php:987, inc/modules/column/column.php:69, inc/modules/column/column.php:280, inc/modules/heading/heading.php:59, inc/modules/section/section.php:205, inc/modules/text_box/text_box.php:135
+msgid "MEDIUM"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:988, buildplugin/zion-builder/inc/modules/column/column.php:70, buildplugin/zion-builder/inc/modules/column/column.php:281, buildplugin/zion-builder/inc/modules/heading/heading.php:60, buildplugin/zion-builder/inc/modules/section/section.php:206, buildplugin/zion-builder/inc/modules/text_box/text_box.php:136, inc/helpers/helpers-frontend.php:988, inc/modules/column/column.php:70, inc/modules/column/column.php:281, inc/modules/heading/heading.php:60, inc/modules/section/section.php:206, inc/modules/text_box/text_box.php:136
+msgid "SMALL"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:989, buildplugin/zion-builder/inc/modules/column/column.php:71, buildplugin/zion-builder/inc/modules/column/column.php:282, buildplugin/zion-builder/inc/modules/heading/heading.php:61, buildplugin/zion-builder/inc/modules/section/section.php:207, buildplugin/zion-builder/inc/modules/text_box/text_box.php:137, inc/helpers/helpers-frontend.php:989, inc/modules/column/column.php:71, inc/modules/column/column.php:282, inc/modules/heading/heading.php:61, inc/modules/section/section.php:207, inc/modules/text_box/text_box.php:137
+msgid "EXTRA SMALL"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:999, buildplugin/zion-builder/inc/modules/column/column.php:289, buildplugin/zion-builder/inc/modules/section/section.php:214, buildplugin/zion-builder/inc/modules/text_box/text_box.php:144, inc/helpers/helpers-frontend.php:999, inc/modules/column/column.php:289, inc/modules/section/section.php:214, inc/modules/text_box/text_box.php:144
+msgid "Margin (Large Breakpoints)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1000, inc/helpers/helpers-frontend.php:1000
+msgid "Select the margin (in percent % or px) for this element. Accepts negative margin."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1014, buildplugin/zion-builder/inc/modules/column/column.php:303, buildplugin/zion-builder/inc/modules/section/section.php:229, buildplugin/zion-builder/inc/modules/text_box/text_box.php:158, inc/helpers/helpers-frontend.php:1014, inc/modules/column/column.php:303, inc/modules/section/section.php:229, inc/modules/text_box/text_box.php:158
+msgid "Margin (Medium Breakpoints)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1015, buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1024, buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1033, inc/helpers/helpers-frontend.php:1015, inc/helpers/helpers-frontend.php:1024, inc/helpers/helpers-frontend.php:1033
+msgid "Select the margin (in percent % or px) for this element."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1023, buildplugin/zion-builder/inc/modules/column/column.php:312, buildplugin/zion-builder/inc/modules/section/section.php:239, buildplugin/zion-builder/inc/modules/text_box/text_box.php:167, inc/helpers/helpers-frontend.php:1023, inc/modules/column/column.php:312, inc/modules/section/section.php:239, inc/modules/text_box/text_box.php:167
+msgid "Margin (Small Breakpoints)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1032, buildplugin/zion-builder/inc/modules/column/column.php:321, buildplugin/zion-builder/inc/modules/section/section.php:249, buildplugin/zion-builder/inc/modules/text_box/text_box.php:176, inc/helpers/helpers-frontend.php:1032, inc/modules/column/column.php:321, inc/modules/section/section.php:249, inc/modules/text_box/text_box.php:176
+msgid "Margin (Extra Small Breakpoints)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1046, buildplugin/zion-builder/inc/modules/column/column.php:331, buildplugin/zion-builder/inc/modules/section/section.php:260, buildplugin/zion-builder/inc/modules/text_box/text_box.php:186, inc/helpers/helpers-frontend.php:1046, inc/modules/column/column.php:331, inc/modules/section/section.php:260, inc/modules/text_box/text_box.php:186
+msgid "Padding (Large Breakpoints)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1047, buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1063, buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1073, buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1083, inc/helpers/helpers-frontend.php:1047, inc/helpers/helpers-frontend.php:1063, inc/helpers/helpers-frontend.php:1073, inc/helpers/helpers-frontend.php:1083
+msgid "Select the padding (in percent % or px) for this element."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1062, buildplugin/zion-builder/inc/modules/column/column.php:346, buildplugin/zion-builder/inc/modules/section/section.php:275, buildplugin/zion-builder/inc/modules/text_box/text_box.php:201, inc/helpers/helpers-frontend.php:1062, inc/modules/column/column.php:346, inc/modules/section/section.php:275, inc/modules/text_box/text_box.php:201
+msgid "Padding (Medium Breakpoints)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1072, buildplugin/zion-builder/inc/modules/column/column.php:356, buildplugin/zion-builder/inc/modules/section/section.php:285, buildplugin/zion-builder/inc/modules/text_box/text_box.php:211, inc/helpers/helpers-frontend.php:1072, inc/modules/column/column.php:356, inc/modules/section/section.php:285, inc/modules/text_box/text_box.php:211
+msgid "Padding (Small Breakpoints)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-frontend.php:1082, buildplugin/zion-builder/inc/modules/column/column.php:366, buildplugin/zion-builder/inc/modules/section/section.php:295, buildplugin/zion-builder/inc/modules/text_box/text_box.php:221, inc/helpers/helpers-frontend.php:1082, inc/modules/column/column.php:366, inc/modules/section/section.php:295, inc/modules/text_box/text_box.php:221
+msgid "Padding (Extra Small Breakpoints)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:14, inc/helpers/helpers-help.php:14
+msgid "Video Tutorial"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:15, inc/helpers/helpers-help.php:15
+msgid "Click here to access video tutorial for this element."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:26, inc/helpers/helpers-help.php:26
+msgid "Written Documentation"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:27, inc/helpers/helpers-help.php:27
+msgid "Click here to access documentation for this element."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:37, inc/helpers/helpers-help.php:37
+msgid "Click to copy ID to clipboard"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:38, inc/helpers/helpers-help.php:38
+msgid "Unique ID:"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:39, inc/helpers/helpers-help.php:39
+msgid "In case you need some custom styling use as a css class selector"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:40, inc/helpers/helpers-help.php:40
+msgid "Click to copy CSS class to clipboard"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:74, inc/helpers/helpers-help.php:74
+msgid "Support Dashboard"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:74, inc/helpers/helpers-help.php:74
+msgid "Kallyas Video Tutorials & Documentation"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:74, inc/helpers/helpers-help.php:74
+msgid "Rate Kallyas"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:86, inc/helpers/helpers-help.php:86
+msgid "Written Documentation:"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:86, inc/helpers/helpers-help.php:86
+msgid "Click here to access documentation for this options section."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/helpers/helpers-help.php:101, inc/helpers/helpers-help.php:101
+msgid "Video Tutorials:"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:13, inc/modules/accordion/accordion.php:13
+msgid "Accordions"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:14, inc/modules/accordion/accordion.php:14
+msgid "Here you can create your desired accordions."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:23, inc/modules/accordion/accordion.php:23
+msgid "Title"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:24, inc/modules/accordion/accordion.php:24
+msgid "Please enter a title for this accordion."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:30, inc/modules/accordion/accordion.php:30
+msgid "Expanded?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:31, inc/modules/accordion/accordion.php:31
+msgid "Select yes if you want this panel to be expanded on page load."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:35, buildplugin/zion-builder/inc/modules/column/column.php:523, buildplugin/zion-builder/inc/modules/column/column.php:537, buildplugin/zion-builder/inc/modules/column/column.php:550, buildplugin/zion-builder/inc/modules/column/column.php:563, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:170, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:260, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:273, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:547, buildplugin/zion-builder/inc/modules/section/section.php:369, buildplugin/zion-builder/inc/modules/section/section.php:466, buildplugin/zion-builder/inc/modules/section/section.php:480, buildplugin/zion-builder/inc/modules/section/section.php:493, buildplugin/zion-builder/inc/modules/section/section.php:506, buildplugin/zion-builder/inc/modules/separator/separator.php:178, buildplugin/zion-builder/inc/modules/video/video.php:93, buildplugin/zion-builder/inc/modules/video/video.php:107, buildplugin/zion-builder/inc/modules/video/video.php:121, buildplugin/zion-builder/inc/modules/video/video.php:138, buildplugin/zion-builder/inc/modules/video/video.php:152, buildplugin/zion-builder/inc/modules/video/video.php:165, buildplugin/zion-builder/inc/modules/video/video.php:178, buildplugin/zion-builder/inc/modules/video/video.php:195, buildplugin/zion-builder/inc/modules/video/video.php:208, buildplugin/zion-builder/inc/modules/video/video.php:221, inc/modules/accordion/accordion.php:35, inc/modules/column/column.php:523, inc/modules/column/column.php:537, inc/modules/column/column.php:550, inc/modules/column/column.php:563, inc/modules/contact_form/contact_form.php:170, inc/modules/contact_form/contact_form.php:260, inc/modules/contact_form/contact_form.php:273, inc/modules/contact_form/contact_form.php:547, inc/modules/section/section.php:369, inc/modules/section/section.php:466, inc/modules/section/section.php:480, inc/modules/section/section.php:493, inc/modules/section/section.php:506, inc/modules/separator/separator.php:178, inc/modules/video/video.php:93, inc/modules/video/video.php:107, inc/modules/video/video.php:121, inc/modules/video/video.php:138, inc/modules/video/video.php:152, inc/modules/video/video.php:165, inc/modules/video/video.php:178, inc/modules/video/video.php:195, inc/modules/video/video.php:208, inc/modules/video/video.php:221
+msgid "Yes"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:36, buildplugin/zion-builder/inc/modules/column/column.php:524, buildplugin/zion-builder/inc/modules/column/column.php:538, buildplugin/zion-builder/inc/modules/column/column.php:551, buildplugin/zion-builder/inc/modules/column/column.php:564, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:170, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:261, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:274, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:547, buildplugin/zion-builder/inc/modules/section/section.php:370, buildplugin/zion-builder/inc/modules/section/section.php:467, buildplugin/zion-builder/inc/modules/section/section.php:481, buildplugin/zion-builder/inc/modules/section/section.php:494, buildplugin/zion-builder/inc/modules/section/section.php:507, buildplugin/zion-builder/inc/modules/separator/separator.php:179, buildplugin/zion-builder/inc/modules/video/video.php:94, buildplugin/zion-builder/inc/modules/video/video.php:108, buildplugin/zion-builder/inc/modules/video/video.php:122, buildplugin/zion-builder/inc/modules/video/video.php:139, buildplugin/zion-builder/inc/modules/video/video.php:153, buildplugin/zion-builder/inc/modules/video/video.php:166, buildplugin/zion-builder/inc/modules/video/video.php:179, buildplugin/zion-builder/inc/modules/video/video.php:196, buildplugin/zion-builder/inc/modules/video/video.php:209, buildplugin/zion-builder/inc/modules/video/video.php:222, inc/modules/accordion/accordion.php:36, inc/modules/column/column.php:524, inc/modules/column/column.php:538, inc/modules/column/column.php:551, inc/modules/column/column.php:564, inc/modules/contact_form/contact_form.php:170, inc/modules/contact_form/contact_form.php:261, inc/modules/contact_form/contact_form.php:274, inc/modules/contact_form/contact_form.php:547, inc/modules/section/section.php:370, inc/modules/section/section.php:467, inc/modules/section/section.php:481, inc/modules/section/section.php:494, inc/modules/section/section.php:507, inc/modules/separator/separator.php:179, inc/modules/video/video.php:94, inc/modules/video/video.php:108, inc/modules/video/video.php:122, inc/modules/video/video.php:139, inc/modules/video/video.php:153, inc/modules/video/video.php:166, inc/modules/video/video.php:179, inc/modules/video/video.php:196, inc/modules/video/video.php:209, inc/modules/video/video.php:222
+msgid "No"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:53, inc/modules/accordion/accordion.php:53
+msgid "Collapse Behavior"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:54, inc/modules/accordion/accordion.php:54
+msgid "Select the behavior of the collapsible panels. Upon click, Accordion Functionality will close other panels, while toggle just opens/closes the current clicked panel."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:58, inc/modules/accordion/accordion.php:58
+msgid "Toggle"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:59, buildplugin/zion-builder/inc/modules/accordion/accordion.php:224, inc/modules/accordion/accordion.php:59, inc/modules/accordion/accordion.php:224
+msgid "Accordion"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:66, buildplugin/zion-builder/inc/modules/tabs/tabs.php:79, inc/modules/accordion/accordion.php:66, inc/modules/tabs/tabs.php:79
+msgid "Element Color Scheme"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:67, buildplugin/zion-builder/inc/modules/tabs/tabs.php:80, inc/modules/accordion/accordion.php:67, inc/modules/tabs/tabs.php:80
+msgid "Select the color scheme of this element"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:71, buildplugin/zion-builder/inc/modules/tabs/tabs.php:84, inc/modules/accordion/accordion.php:71, inc/modules/tabs/tabs.php:84
+msgid "Light (default)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:72, buildplugin/zion-builder/inc/modules/tabs/tabs.php:85, inc/modules/accordion/accordion.php:72, inc/modules/tabs/tabs.php:85
+msgid "Dark"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/accordion/accordion.php:225, inc/modules/accordion/accordion.php:225
+msgid "This element will generate an accordion collapsible element."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/anchor_point/anchor_point.php:13, buildplugin/zion-builder/inc/modules/custom_html/custom_html.php:41, buildplugin/zion-builder/inc/modules/heading/heading.php:12, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:17, buildplugin/zion-builder/inc/modules/section/section.php:25, buildplugin/zion-builder/inc/modules/separator/separator.php:12, buildplugin/zion-builder/inc/modules/sidebar/sidebar.php:62, buildplugin/zion-builder/inc/modules/smart_area/smart_area.php:23, buildplugin/zion-builder/inc/modules/spacer/spacer.php:17, buildplugin/zion-builder/inc/modules/video/video.php:17, buildplugin/zion-builder/inc/modules/widget/widget.php:12, inc/modules/anchor_point/anchor_point.php:13, inc/modules/custom_html/custom_html.php:41, inc/modules/heading/heading.php:12, inc/modules/icon_list/icon_list.php:17, inc/modules/section/section.php:25, inc/modules/separator/separator.php:12, inc/modules/sidebar/sidebar.php:62, inc/modules/smart_area/smart_area.php:23, inc/modules/spacer/spacer.php:17, inc/modules/video/video.php:17, inc/modules/widget/widget.php:12
+msgid "General options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/anchor_point/anchor_point.php:19, inc/modules/anchor_point/anchor_point.php:19
+msgid "Please enter an id for this anchor point. You can use this #id for an anchor href."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/anchor_point/anchor_point.php:67, inc/modules/anchor_point/anchor_point.php:67
+msgid "Anchor Point"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/anchor_point/anchor_point.php:68, inc/modules/anchor_point/anchor_point.php:68
+msgid "This element will generate an empty element with an unique ID that can be used as an achor point."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:19, inc/modules/button/button.php:19
+msgid "CONTENT"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:24, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:210, inc/modules/button/button.php:24, inc/modules/contact_form/contact_form.php:210
+msgid "Text"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:25, inc/modules/button/button.php:25
+msgid "Text inside the button"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:32, inc/modules/button/button.php:32
+msgid "Link"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:33, inc/modules/button/button.php:33
+msgid "Attach a link to the button"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:38, buildplugin/zion-builder/inc/modules/button/button.php:401, buildplugin/zion-builder/inc/modules/button/button.php:417, inc/modules/button/button.php:38, inc/modules/button/button.php:401, inc/modules/button/button.php:417
+msgid "Click me"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:52, inc/modules/button/button.php:52
+msgid "Style"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:53, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:425, inc/modules/button/button.php:53, inc/modules/contact_form/contact_form.php:425
+msgid "Select a style for the button"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:66, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:475, inc/modules/button/button.php:66, inc/modules/contact_form/contact_form.php:475
+msgid "Button text Options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:67, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:476, inc/modules/button/button.php:67, inc/modules/contact_form/contact_form.php:476
+msgid "Specify the typography properties for the button."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:80, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:488, inc/modules/button/button.php:80, inc/modules/contact_form/contact_form.php:488
+msgid "Button Corners"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:81, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:489, inc/modules/button/button.php:81, inc/modules/contact_form/contact_form.php:489
+msgid "Select the button corners type for this button"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:86, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:494, inc/modules/button/button.php:86, inc/modules/contact_form/contact_form.php:494
+msgid "Smooth rounded corner"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:87, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:495, inc/modules/button/button.php:87, inc/modules/contact_form/contact_form.php:495
+msgid "Round corners"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:88, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:496, inc/modules/button/button.php:88, inc/modules/contact_form/contact_form.php:496
+msgid "Square corners"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:97, buildplugin/zion-builder/inc/modules/column/column.php:629, buildplugin/zion-builder/inc/modules/image/image.php:171, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:39, inc/modules/button/button.php:97, inc/modules/column/column.php:629, inc/modules/image/image.php:171, inc/modules/smart_container/smart_container.php:39
+msgid "Border Type"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:98, buildplugin/zion-builder/inc/modules/column/column.php:630, buildplugin/zion-builder/inc/modules/image/image.php:172, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:40, inc/modules/button/button.php:98, inc/modules/column/column.php:630, inc/modules/image/image.php:172, inc/modules/smart_container/smart_container.php:40
+msgid "Select the border type for this button."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:103, buildplugin/zion-builder/inc/modules/column/column.php:414, buildplugin/zion-builder/inc/modules/column/column.php:635, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:383, buildplugin/zion-builder/inc/modules/google_map/google_map.php:86, buildplugin/zion-builder/inc/modules/image/image.php:126, buildplugin/zion-builder/inc/modules/image/image.php:177, buildplugin/zion-builder/inc/modules/section/section.php:343, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:45, inc/modules/button/button.php:103, inc/modules/column/column.php:414, inc/modules/column/column.php:635, inc/modules/contact_form/contact_form.php:383, inc/modules/google_map/google_map.php:86, inc/modules/image/image.php:126, inc/modules/image/image.php:177, inc/modules/section/section.php:343, inc/modules/smart_container/smart_container.php:45
+msgid "None"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:104, buildplugin/zion-builder/inc/modules/column/column.php:636, buildplugin/zion-builder/inc/modules/image/image.php:178, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:46, inc/modules/button/button.php:104, inc/modules/column/column.php:636, inc/modules/image/image.php:178, inc/modules/smart_container/smart_container.php:46
+msgid "Solid"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:105, buildplugin/zion-builder/inc/modules/column/column.php:579, buildplugin/zion-builder/inc/modules/column/column.php:637, buildplugin/zion-builder/inc/modules/image/image.php:179, buildplugin/zion-builder/inc/modules/section/section.php:522, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:47, inc/modules/button/button.php:105, inc/modules/column/column.php:579, inc/modules/column/column.php:637, inc/modules/image/image.php:179, inc/modules/section/section.php:522, inc/modules/smart_container/smart_container.php:47
+msgid "Dotted"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:106, buildplugin/zion-builder/inc/modules/column/column.php:638, buildplugin/zion-builder/inc/modules/image/image.php:180, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:48, inc/modules/button/button.php:106, inc/modules/column/column.php:638, inc/modules/image/image.php:180, inc/modules/smart_container/smart_container.php:48
+msgid "Dashed"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:107, buildplugin/zion-builder/inc/modules/column/column.php:639, buildplugin/zion-builder/inc/modules/image/image.php:181, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:49, inc/modules/button/button.php:107, inc/modules/column/column.php:639, inc/modules/image/image.php:181, inc/modules/smart_container/smart_container.php:49
+msgid "Double"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:119, buildplugin/zion-builder/inc/modules/column/column.php:651, buildplugin/zion-builder/inc/modules/image/image.php:193, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:61, inc/modules/button/button.php:119, inc/modules/column/column.php:651, inc/modules/image/image.php:193, inc/modules/smart_container/smart_container.php:61
+msgid "Border Width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:120, buildplugin/zion-builder/inc/modules/column/column.php:652, buildplugin/zion-builder/inc/modules/image/image.php:194, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:62, inc/modules/button/button.php:120, inc/modules/column/column.php:652, inc/modules/image/image.php:194, inc/modules/smart_container/smart_container.php:62
+msgid "Choose a border width."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:154, inc/modules/button/button.php:154
+msgid "Background-Color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:155, inc/modules/button/button.php:155
+msgid "Select button custom color."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:170, inc/modules/button/button.php:170
+msgid "Background-Color HOVER"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:171, inc/modules/button/button.php:171
+msgid "Select button custom color on hover. If not specified, the normal state color will be used with a 20% color adjustment in brightness."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:208, inc/modules/button/button.php:208
+msgid "Text-Color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:209, inc/modules/button/button.php:209
+msgid "Select button custom text color."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:223, inc/modules/button/button.php:223
+msgid "Text-Color HOVER"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:224, inc/modules/button/button.php:224
+msgid "Select button custom text color on hover. If not specified, the normal state color will be used with a 20% color adjustment in brightness."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:232, buildplugin/zion-builder/inc/modules/column/column.php:666, buildplugin/zion-builder/inc/modules/image/image.php:208, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:76, inc/modules/button/button.php:232, inc/modules/column/column.php:666, inc/modules/image/image.php:208, inc/modules/smart_container/smart_container.php:76
+msgid "Border-Color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:233, buildplugin/zion-builder/inc/modules/column/column.php:667, buildplugin/zion-builder/inc/modules/image/image.php:209, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:77, inc/modules/button/button.php:233, inc/modules/column/column.php:667, inc/modules/image/image.php:209, inc/modules/smart_container/smart_container.php:77
+msgid "Select button custom border color."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:248, buildplugin/zion-builder/inc/modules/image/image.php:224, inc/modules/button/button.php:248, inc/modules/image/image.php:224
+msgid "Border-Color HOVER"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:249, buildplugin/zion-builder/inc/modules/image/image.php:225, inc/modules/button/button.php:249, inc/modules/image/image.php:225
+msgid "Select button custom border color on hover. If not specified, the normal state color will be used with a 20% color adjustment in brightness."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:263, buildplugin/zion-builder/inc/modules/section/section.php:30, inc/modules/button/button.php:263, inc/modules/section/section.php:30
+msgid "Width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:264, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:438, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:457, inc/modules/button/button.php:264, inc/modules/contact_form/contact_form.php:438, inc/modules/contact_form/contact_form.php:457
+msgid "Select a size for the button"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:270, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:444, inc/modules/button/button.php:270, inc/modules/contact_form/contact_form.php:444
+msgid "Full width (100%)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:271, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:445, inc/modules/button/button.php:271, inc/modules/contact_form/contact_form.php:445
+msgid "Half width (50%)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:272, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:446, inc/modules/button/button.php:272, inc/modules/contact_form/contact_form.php:446
+msgid "One-Third width (33%)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:273, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:447, inc/modules/button/button.php:273, inc/modules/contact_form/contact_form.php:447
+msgid "One-forth width (25%)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:282, buildplugin/zion-builder/inc/modules/icon/icon.php:216, buildplugin/zion-builder/inc/modules/icon/icon.php:224, buildplugin/zion-builder/inc/modules/icon/icon.php:235, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:38, buildplugin/zion-builder/inc/modules/image/image.php:47, buildplugin/zion-builder/inc/modules/image/image.php:58, buildplugin/zion-builder/inc/modules/separator/separator.php:101, inc/modules/button/button.php:282, inc/modules/icon/icon.php:216, inc/modules/icon/icon.php:224, inc/modules/icon/icon.php:235, inc/modules/icon_list/icon_list.php:38, inc/modules/image/image.php:47, inc/modules/image/image.php:58, inc/modules/separator/separator.php:101
+msgid "Alignment"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:283, inc/modules/button/button.php:283
+msgid "Please select the alignment of the button."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:287, buildplugin/zion-builder/inc/modules/tabs/tabs.php:65, inc/modules/button/button.php:287, inc/modules/tabs/tabs.php:65
+msgid "Left (default)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:288, buildplugin/zion-builder/inc/modules/column/column.php:230, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:513, buildplugin/zion-builder/inc/modules/icon/icon.php:243, buildplugin/zion-builder/inc/modules/icon/icon.php:263, buildplugin/zion-builder/inc/modules/icon/icon.php:277, buildplugin/zion-builder/inc/modules/icon/icon.php:291, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:46, buildplugin/zion-builder/inc/modules/image/image.php:66, buildplugin/zion-builder/inc/modules/image/image.php:86, buildplugin/zion-builder/inc/modules/image/image.php:100, buildplugin/zion-builder/inc/modules/image/image.php:114, buildplugin/zion-builder/inc/modules/separator/separator.php:109, buildplugin/zion-builder/inc/modules/separator/separator.php:129, buildplugin/zion-builder/inc/modules/separator/separator.php:143, buildplugin/zion-builder/inc/modules/separator/separator.php:157, buildplugin/zion-builder/inc/modules/tabs/tabs.php:67, inc/modules/button/button.php:288, inc/modules/column/column.php:230, inc/modules/contact_form/contact_form.php:513, inc/modules/icon/icon.php:243, inc/modules/icon/icon.php:263, inc/modules/icon/icon.php:277, inc/modules/icon/icon.php:291, inc/modules/icon_list/icon_list.php:46, inc/modules/image/image.php:66, inc/modules/image/image.php:86, inc/modules/image/image.php:100, inc/modules/image/image.php:114, inc/modules/separator/separator.php:109, inc/modules/separator/separator.php:129, inc/modules/separator/separator.php:143, inc/modules/separator/separator.php:157, inc/modules/tabs/tabs.php:67
+msgid "Right"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:289, buildplugin/zion-builder/inc/modules/column/column.php:229, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:512, buildplugin/zion-builder/inc/modules/icon/icon.php:242, buildplugin/zion-builder/inc/modules/icon/icon.php:262, buildplugin/zion-builder/inc/modules/icon/icon.php:276, buildplugin/zion-builder/inc/modules/icon/icon.php:290, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:45, buildplugin/zion-builder/inc/modules/image/image.php:65, buildplugin/zion-builder/inc/modules/image/image.php:85, buildplugin/zion-builder/inc/modules/image/image.php:99, buildplugin/zion-builder/inc/modules/image/image.php:113, buildplugin/zion-builder/inc/modules/section/section.php:709, buildplugin/zion-builder/inc/modules/separator/separator.php:108, buildplugin/zion-builder/inc/modules/separator/separator.php:128, buildplugin/zion-builder/inc/modules/separator/separator.php:142, buildplugin/zion-builder/inc/modules/separator/separator.php:156, buildplugin/zion-builder/inc/modules/tabs/tabs.php:66, inc/modules/button/button.php:289, inc/modules/column/column.php:229, inc/modules/contact_form/contact_form.php:512, inc/modules/icon/icon.php:242, inc/modules/icon/icon.php:262, inc/modules/icon/icon.php:276, inc/modules/icon/icon.php:290, inc/modules/icon_list/icon_list.php:45, inc/modules/image/image.php:65, inc/modules/image/image.php:85, inc/modules/image/image.php:99, inc/modules/image/image.php:113, inc/modules/section/section.php:709, inc/modules/separator/separator.php:108, inc/modules/separator/separator.php:128, inc/modules/separator/separator.php:142, inc/modules/separator/separator.php:156, inc/modules/tabs/tabs.php:66
+msgid "Center"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:307, inc/modules/button/button.php:307
+msgid "Icon position"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:308, inc/modules/button/button.php:308
+msgid "Select the position of the icon"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:313, inc/modules/button/button.php:313
+msgid "Before text"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:314, inc/modules/button/button.php:314
+msgid "After text"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:319, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:126, inc/modules/button/button.php:319, inc/modules/icon_list/icon_list.php:126
+msgid "Select icon"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:320, inc/modules/button/button.php:320
+msgid "Select an icon to add to the button"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:329, inc/modules/button/button.php:329
+msgid "Icon size."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:330, inc/modules/button/button.php:330
+msgid "Change the icon's size."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:342, inc/modules/button/button.php:342
+msgid "Button icon distance."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:343, inc/modules/button/button.php:343
+msgid "Change the default distance from the icon vs text."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:545, inc/modules/button/button.php:545
+msgid "Button"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/button/button.php:546, inc/modules/button/button.php:546
+msgid "Create a button."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:9, inc/modules/column/column.php:9
+msgid "No offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:10, inc/modules/column/column.php:10
+msgid "0 - Reset Offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:11, inc/modules/column/column.php:11
+msgid "1 Column Offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:12, inc/modules/column/column.php:12
+msgid "2 Columns Offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:13, inc/modules/column/column.php:13
+msgid "3 Columns Offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:14, inc/modules/column/column.php:14
+msgid "4 Columns Offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:15, inc/modules/column/column.php:15
+msgid "5 Columns Offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:16, inc/modules/column/column.php:16
+msgid "6 Columns Offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:17, inc/modules/column/column.php:17
+msgid "7 Columns Offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:18, inc/modules/column/column.php:18
+msgid "8 Columns Offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:19, inc/modules/column/column.php:19
+msgid "9 Columns Offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:20, inc/modules/column/column.php:20
+msgid "10 Columns Offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:21, inc/modules/column/column.php:21
+msgid "11 Columns Offset"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:61, inc/modules/column/column.php:61
+msgid "Edit Settings for each device breakpoint"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:62, inc/modules/column/column.php:62
+msgid "This will enable you to have more control over the settings of this column on each device."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:79, inc/modules/column/column.php:79
+msgid "Column Offset - Desktops"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:80, inc/modules/column/column.php:80
+msgid "Here you can define an offset for this column "
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:93, inc/modules/column/column.php:93
+msgid "Column Offset - Laptops / large tablets"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:94, buildplugin/zion-builder/inc/modules/column/column.php:107, inc/modules/column/column.php:94, inc/modules/column/column.php:107
+msgid "Here you can define an offset for this column"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:106, inc/modules/column/column.php:106
+msgid "Column offset - Tablets"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:120, inc/modules/column/column.php:120
+msgid "Column Offset - SmartPhones"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:121, inc/modules/column/column.php:121
+msgid "Here you can define an offset for this column. Usually not used at all."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:131, inc/modules/column/column.php:131
+msgid "Column Size on Desktops"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:132, inc/modules/column/column.php:132
+msgid "In View Mode only! <br> Select a size for this column on large devices, for example Desktops with a resolution bigger than 1200px."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:141, inc/modules/column/column.php:141
+msgid "Column Size on Tablets"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:142, inc/modules/column/column.php:142
+msgid "Select a size for this column on small devices( >= 768px )"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:150, inc/modules/column/column.php:150
+msgid "Columns Size on Smartphones"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:151, inc/modules/column/column.php:151
+msgid "Select a size for this column on extra small devices( <768px )"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:165, inc/modules/column/column.php:165
+msgid "Inner Height"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:166, inc/modules/column/column.php:166
+msgid "Choose the desired height for this column. If you want to reset the height, simply leave the input blank."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:185, inc/modules/column/column.php:185
+msgid "Inner Width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:186, inc/modules/column/column.php:186
+msgid "Choose the desired INNER width for this column. If you want to change the column's size, go to the 1st tab - general options."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:205, inc/modules/column/column.php:205
+msgid "Vertical Align - Inner Content"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:206, buildplugin/zion-builder/inc/modules/section/section.php:148, inc/modules/column/column.php:206, inc/modules/section/section.php:148
+msgid "Choose how to vertically align content."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:223, inc/modules/column/column.php:223
+msgid "Horizontal Align - Inner Content"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:224, inc/modules/column/column.php:224
+msgid "Choose how to horizontally align content."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:228, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:511, buildplugin/zion-builder/inc/modules/icon/icon.php:241, buildplugin/zion-builder/inc/modules/icon/icon.php:261, buildplugin/zion-builder/inc/modules/icon/icon.php:275, buildplugin/zion-builder/inc/modules/icon/icon.php:289, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:44, buildplugin/zion-builder/inc/modules/image/image.php:64, buildplugin/zion-builder/inc/modules/image/image.php:84, buildplugin/zion-builder/inc/modules/image/image.php:98, buildplugin/zion-builder/inc/modules/image/image.php:112, buildplugin/zion-builder/inc/modules/separator/separator.php:107, buildplugin/zion-builder/inc/modules/separator/separator.php:127, buildplugin/zion-builder/inc/modules/separator/separator.php:141, buildplugin/zion-builder/inc/modules/separator/separator.php:155, inc/modules/column/column.php:228, inc/modules/contact_form/contact_form.php:511, inc/modules/icon/icon.php:241, inc/modules/icon/icon.php:261, inc/modules/icon/icon.php:275, inc/modules/icon/icon.php:289, inc/modules/icon_list/icon_list.php:44, inc/modules/image/image.php:64, inc/modules/image/image.php:84, inc/modules/image/image.php:98, inc/modules/image/image.php:112, inc/modules/separator/separator.php:107, inc/modules/separator/separator.php:127, inc/modules/separator/separator.php:141, inc/modules/separator/separator.php:155
+msgid "Left"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:242, inc/modules/column/column.php:242
+msgid "Select the z-index of this column element."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:272, buildplugin/zion-builder/inc/modules/section/section.php:197, buildplugin/zion-builder/inc/modules/text_box/text_box.php:127, inc/modules/column/column.php:272, inc/modules/section/section.php:197, inc/modules/text_box/text_box.php:127
+msgid "Edit padding & margins for each device breakpoint"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:273, inc/modules/column/column.php:273
+msgid "This will enable you to have more control over the padding of the container on each device. Click to see <a href='%s' target='_blank'>how box-model works</a>."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:290, buildplugin/zion-builder/inc/modules/section/section.php:215, buildplugin/zion-builder/inc/modules/text_box/text_box.php:145, inc/modules/column/column.php:290, inc/modules/section/section.php:215, inc/modules/text_box/text_box.php:145
+msgid "Select the margin (in percent % or px) for this container. Accepts negative margin."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:304, buildplugin/zion-builder/inc/modules/column/column.php:313, buildplugin/zion-builder/inc/modules/column/column.php:322, buildplugin/zion-builder/inc/modules/section/section.php:230, buildplugin/zion-builder/inc/modules/section/section.php:240, buildplugin/zion-builder/inc/modules/section/section.php:250, buildplugin/zion-builder/inc/modules/text_box/text_box.php:159, buildplugin/zion-builder/inc/modules/text_box/text_box.php:168, buildplugin/zion-builder/inc/modules/text_box/text_box.php:177, inc/modules/column/column.php:304, inc/modules/column/column.php:313, inc/modules/column/column.php:322, inc/modules/section/section.php:230, inc/modules/section/section.php:240, inc/modules/section/section.php:250, inc/modules/text_box/text_box.php:159, inc/modules/text_box/text_box.php:168, inc/modules/text_box/text_box.php:177
+msgid "Select the margin (in percent % or px) for this container."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:332, buildplugin/zion-builder/inc/modules/column/column.php:347, buildplugin/zion-builder/inc/modules/column/column.php:357, buildplugin/zion-builder/inc/modules/column/column.php:367, buildplugin/zion-builder/inc/modules/section/section.php:261, buildplugin/zion-builder/inc/modules/section/section.php:276, buildplugin/zion-builder/inc/modules/section/section.php:286, buildplugin/zion-builder/inc/modules/section/section.php:296, buildplugin/zion-builder/inc/modules/text_box/text_box.php:187, buildplugin/zion-builder/inc/modules/text_box/text_box.php:202, buildplugin/zion-builder/inc/modules/text_box/text_box.php:212, buildplugin/zion-builder/inc/modules/text_box/text_box.php:222, inc/modules/column/column.php:332, inc/modules/column/column.php:347, inc/modules/column/column.php:357, inc/modules/column/column.php:367, inc/modules/section/section.php:261, inc/modules/section/section.php:276, inc/modules/section/section.php:286, inc/modules/section/section.php:296, inc/modules/text_box/text_box.php:187, inc/modules/text_box/text_box.php:202, inc/modules/text_box/text_box.php:212, inc/modules/text_box/text_box.php:222
+msgid "Select the padding (in percent % or px) for this container."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:385, buildplugin/zion-builder/inc/modules/section/section.php:314, inc/modules/column/column.php:385, inc/modules/section/section.php:314
+msgid "Background & Color Options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:386, buildplugin/zion-builder/inc/modules/section/section.php:315, inc/modules/column/column.php:386, inc/modules/section/section.php:315
+msgid "These are options to customize the background and colors for this section."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:393, inc/modules/column/column.php:393
+msgid "Inner Background color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:394, buildplugin/zion-builder/inc/modules/section/section.php:323, inc/modules/column/column.php:394, inc/modules/section/section.php:323
+msgid "Here you can override the background color for this section."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:408, buildplugin/zion-builder/inc/modules/section/section.php:337, inc/modules/column/column.php:408, inc/modules/section/section.php:337
+msgid "Background Media"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:409, buildplugin/zion-builder/inc/modules/section/section.php:338, inc/modules/column/column.php:409, inc/modules/section/section.php:338
+msgid "Please select the source type of the background."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:415, buildplugin/zion-builder/inc/modules/icon/icon.php:175, buildplugin/zion-builder/inc/modules/image/image.php:21, buildplugin/zion-builder/inc/modules/image/image.php:555, buildplugin/zion-builder/inc/modules/section/section.php:344, inc/modules/column/column.php:415, inc/modules/icon/icon.php:175, inc/modules/image/image.php:21, inc/modules/image/image.php:555, inc/modules/section/section.php:344
+msgid "Image"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:416, buildplugin/zion-builder/inc/modules/section/section.php:345, inc/modules/column/column.php:416, inc/modules/section/section.php:345
+msgid "Youtube Video"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:417, buildplugin/zion-builder/inc/modules/section/section.php:346, inc/modules/column/column.php:417, inc/modules/section/section.php:346
+msgid "Vimeo Video"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:418, buildplugin/zion-builder/inc/modules/section/section.php:347, inc/modules/column/column.php:418, inc/modules/section/section.php:347
+msgid "Self Hosted Video"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:419, buildplugin/zion-builder/inc/modules/section/section.php:348, inc/modules/column/column.php:419, inc/modules/section/section.php:348
+msgid "Embed Iframe (Vimeo etc.)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:425, buildplugin/zion-builder/inc/modules/section/section.php:354, inc/modules/column/column.php:425, inc/modules/section/section.php:354
+msgid "Background Image"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:426, buildplugin/zion-builder/inc/modules/section/section.php:355, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:32, inc/modules/column/column.php:426, inc/modules/section/section.php:355, inc/modules/smart_container/smart_container.php:32
+msgid "Please choose a background image for this section."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:435, buildplugin/zion-builder/inc/modules/section/section.php:378, inc/modules/column/column.php:435, inc/modules/section/section.php:378
+msgid "Youtube URL"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:436, buildplugin/zion-builder/inc/modules/section/section.php:379, inc/modules/column/column.php:436, inc/modules/section/section.php:379
+msgid "Add an Youtube URL"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:446, buildplugin/zion-builder/inc/modules/section/section.php:389, inc/modules/column/column.php:446, inc/modules/section/section.php:389
+msgid "Vimeo URL"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:447, buildplugin/zion-builder/inc/modules/section/section.php:390, inc/modules/column/column.php:447, inc/modules/section/section.php:390
+msgid "Add an Vimeo URL"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:458, buildplugin/zion-builder/inc/modules/section/section.php:401, inc/modules/column/column.php:458, inc/modules/section/section.php:401
+msgid "Embed Video Iframe (URL)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:459, buildplugin/zion-builder/inc/modules/section/section.php:402, inc/modules/column/column.php:459, inc/modules/section/section.php:402
+msgid "Add the full URL for Youtube, Vimeo or DailyMotion. Please remember these videos will not be autoplayed on mobile devices."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:471, buildplugin/zion-builder/inc/modules/section/section.php:414, buildplugin/zion-builder/inc/modules/video/video.php:48, inc/modules/column/column.php:471, inc/modules/section/section.php:414, inc/modules/video/video.php:48
+msgid "Mp4 video source"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:472, buildplugin/zion-builder/inc/modules/section/section.php:415, buildplugin/zion-builder/inc/modules/video/video.php:49, inc/modules/column/column.php:472, inc/modules/section/section.php:415, inc/modules/video/video.php:49
+msgid "Add the MP4 video source for your local video"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:477, buildplugin/zion-builder/inc/modules/section/section.php:420, buildplugin/zion-builder/inc/modules/video/video.php:55, inc/modules/column/column.php:477, inc/modules/section/section.php:420, inc/modules/video/video.php:55
+msgid "Add / Change mp4 video"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:483, buildplugin/zion-builder/inc/modules/section/section.php:426, buildplugin/zion-builder/inc/modules/video/video.php:62, inc/modules/column/column.php:483, inc/modules/section/section.php:426, inc/modules/video/video.php:62
+msgid "Ogg/Ogv video source"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:484, buildplugin/zion-builder/inc/modules/section/section.php:427, buildplugin/zion-builder/inc/modules/video/video.php:63, inc/modules/column/column.php:484, inc/modules/section/section.php:427, inc/modules/video/video.php:63
+msgid "Add the OGG video source for your local video"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:489, buildplugin/zion-builder/inc/modules/section/section.php:432, buildplugin/zion-builder/inc/modules/video/video.php:68, inc/modules/column/column.php:489, inc/modules/section/section.php:432, inc/modules/video/video.php:68
+msgid "Add / Change ogg video"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:495, buildplugin/zion-builder/inc/modules/section/section.php:438, buildplugin/zion-builder/inc/modules/video/video.php:75, inc/modules/column/column.php:495, inc/modules/section/section.php:438, inc/modules/video/video.php:75
+msgid "Webm video source"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:496, buildplugin/zion-builder/inc/modules/section/section.php:439, buildplugin/zion-builder/inc/modules/video/video.php:76, inc/modules/column/column.php:496, inc/modules/section/section.php:439, inc/modules/video/video.php:76
+msgid "Add the WEBM video source for your local video"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:501, buildplugin/zion-builder/inc/modules/section/section.php:444, buildplugin/zion-builder/inc/modules/video/video.php:81, inc/modules/column/column.php:501, inc/modules/section/section.php:444, inc/modules/video/video.php:81
+msgid "Add / Change webm video"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:507, buildplugin/zion-builder/inc/modules/section/section.php:450, inc/modules/column/column.php:507, inc/modules/section/section.php:450
+msgid "Video poster / Fallback Image"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:508, buildplugin/zion-builder/inc/modules/section/section.php:451, inc/modules/column/column.php:508, inc/modules/section/section.php:451
+msgid "Using this option you can add your desired video poster that will be shown on unsuported devices (mobiles, tablets). "
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:517, buildplugin/zion-builder/inc/modules/section/section.php:460, inc/modules/column/column.php:517, inc/modules/section/section.php:460
+msgid "Display Play button on Mobiles?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:518, buildplugin/zion-builder/inc/modules/section/section.php:461, inc/modules/column/column.php:518, inc/modules/section/section.php:461
+msgid "By default videos are not displayed in the background on mobile devices. It's too problematic and instead, we added a button trigger which will open the video into a modal."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:531, buildplugin/zion-builder/inc/modules/section/section.php:474, buildplugin/zion-builder/inc/modules/video/video.php:88, inc/modules/column/column.php:531, inc/modules/section/section.php:474, inc/modules/video/video.php:88
+msgid "Autoplay video?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:532, buildplugin/zion-builder/inc/modules/section/section.php:475, inc/modules/column/column.php:532, inc/modules/section/section.php:475
+msgid "Enable autoplay for video? Remember, this option only applies on desktop devices, not mobiles or tablets."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:544, buildplugin/zion-builder/inc/modules/section/section.php:487, buildplugin/zion-builder/inc/modules/video/video.php:102, inc/modules/column/column.php:544, inc/modules/section/section.php:487, inc/modules/video/video.php:102
+msgid "Loop video?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:545, buildplugin/zion-builder/inc/modules/section/section.php:488, inc/modules/column/column.php:545, inc/modules/section/section.php:488
+msgid "Enable looping the video? Remember, this option only applies on desktop devices, not mobiles or tablets."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:557, buildplugin/zion-builder/inc/modules/section/section.php:500, inc/modules/column/column.php:557, inc/modules/section/section.php:500
+msgid "Start mute?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:558, buildplugin/zion-builder/inc/modules/section/section.php:501, inc/modules/column/column.php:558, inc/modules/section/section.php:501
+msgid "Start the video with muted audio?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:571, buildplugin/zion-builder/inc/modules/section/section.php:514, inc/modules/column/column.php:571, inc/modules/section/section.php:514
+msgid "Video Overlay?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:572, buildplugin/zion-builder/inc/modules/section/section.php:515, inc/modules/column/column.php:572, inc/modules/section/section.php:515
+msgid "Choose a video Overlay"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:577, buildplugin/zion-builder/inc/modules/column/column.php:592, buildplugin/zion-builder/inc/modules/section/section.php:520, buildplugin/zion-builder/inc/modules/section/section.php:535, buildplugin/zion-builder/inc/modules/section/section.php:743, inc/modules/column/column.php:577, inc/modules/column/column.php:592, inc/modules/section/section.php:520, inc/modules/section/section.php:535, inc/modules/section/section.php:743
+msgid "Disabled"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:578, buildplugin/zion-builder/inc/modules/section/section.php:521, inc/modules/column/column.php:578, inc/modules/section/section.php:521
+msgid "Diagonal Stripes"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:580, buildplugin/zion-builder/inc/modules/section/section.php:523, inc/modules/column/column.php:580, inc/modules/section/section.php:523
+msgid "Subtle Gradient"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:587, buildplugin/zion-builder/inc/modules/section/section.php:530, inc/modules/column/column.php:587, inc/modules/section/section.php:530
+msgid "Background Overlay"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:588, buildplugin/zion-builder/inc/modules/section/section.php:531, inc/modules/column/column.php:588, inc/modules/section/section.php:531
+msgid "You can overlay the default background (color or media). Useful when you want to darken or lighten the background."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:593, buildplugin/zion-builder/inc/modules/section/section.php:536, inc/modules/column/column.php:593, inc/modules/section/section.php:536
+msgid "Normal color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:594, buildplugin/zion-builder/inc/modules/section/section.php:537, inc/modules/column/column.php:594, inc/modules/section/section.php:537
+msgid "Horizontal gradient"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:595, buildplugin/zion-builder/inc/modules/section/section.php:538, inc/modules/column/column.php:595, inc/modules/section/section.php:538
+msgid "Vertical gradient"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:596, buildplugin/zion-builder/inc/modules/section/section.php:539, inc/modules/column/column.php:596, inc/modules/section/section.php:539
+msgid "Custom CSS generated gradient"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:602, buildplugin/zion-builder/inc/modules/section/section.php:545, inc/modules/column/column.php:602, inc/modules/section/section.php:545
+msgid "Overlay Background Color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:603, buildplugin/zion-builder/inc/modules/column/column.php:613, buildplugin/zion-builder/inc/modules/section/section.php:546, buildplugin/zion-builder/inc/modules/section/section.php:556, inc/modules/column/column.php:603, inc/modules/column/column.php:613, inc/modules/section/section.php:546, inc/modules/section/section.php:556
+msgid "Pick a color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:612, buildplugin/zion-builder/inc/modules/section/section.php:555, inc/modules/column/column.php:612, inc/modules/section/section.php:555
+msgid "Overlay Gradient 2nd Bg. Color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:621, buildplugin/zion-builder/inc/modules/section/section.php:564, inc/modules/column/column.php:621, inc/modules/section/section.php:564
+msgid "Custom CSS Gradient Overlay"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:622, inc/modules/column/column.php:622
+msgid "You can use a tool such as <a href=\"%s\" target=\"_blank\">%s</a> to generate a unique custom gradient. Here is a quick video explainer <a href=\"%s\" target=\"_blank\">%s</a> how to generate and paste the code here"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:683, inc/modules/column/column.php:683
+msgid "Corner radius"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:684, inc/modules/column/column.php:684
+msgid "Select a corner radius (in pixels) for this column."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:738, buildplugin/zion-builder/inc/modules/image/image.php:345, buildplugin/zion-builder/inc/modules/section/section.php:780, inc/modules/column/column.php:738, inc/modules/image/image.php:345, inc/modules/section/section.php:780
+msgid "No Easing"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:739, buildplugin/zion-builder/inc/modules/image/image.php:346, buildplugin/zion-builder/inc/modules/section/section.php:781, inc/modules/column/column.php:739, inc/modules/image/image.php:346, inc/modules/section/section.php:781
+msgid "Ease Out Linear"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:740, buildplugin/zion-builder/inc/modules/image/image.php:347, buildplugin/zion-builder/inc/modules/section/section.php:782, inc/modules/column/column.php:740, inc/modules/image/image.php:347, inc/modules/section/section.php:782
+msgid "Ease Out Quad"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:741, buildplugin/zion-builder/inc/modules/image/image.php:348, buildplugin/zion-builder/inc/modules/section/section.php:783, inc/modules/column/column.php:741, inc/modules/image/image.php:348, inc/modules/section/section.php:783
+msgid "Ease Out Cubic"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:742, buildplugin/zion-builder/inc/modules/image/image.php:349, buildplugin/zion-builder/inc/modules/section/section.php:784, inc/modules/column/column.php:742, inc/modules/image/image.php:349, inc/modules/section/section.php:784
+msgid "Ease Out Quart"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:743, buildplugin/zion-builder/inc/modules/image/image.php:350, buildplugin/zion-builder/inc/modules/section/section.php:785, inc/modules/column/column.php:743, inc/modules/image/image.php:350, inc/modules/section/section.php:785
+msgid "Ease Out Quint"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:760, buildplugin/zion-builder/inc/modules/section/section.php:628, inc/modules/column/column.php:760, inc/modules/section/section.php:628
+msgid "Overflow Hidden"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:761, buildplugin/zion-builder/inc/modules/section/section.php:629, inc/modules/column/column.php:761, inc/modules/section/section.php:629
+msgid "Select if you want to set overflow hidden for this section"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:971, inc/modules/column/column.php:971
+msgid "Column"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/column/column.php:972, inc/modules/column/column.php:972
+msgid "This element will generate a column in which you can add elements"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:33, inc/modules/contact_form/contact_form.php:33
+msgid "-- Default (English) --"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:34, inc/modules/contact_form/contact_form.php:34
+msgid "Afrikaans"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:35, inc/modules/contact_form/contact_form.php:35
+msgid "Algerian Arabic"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:36, inc/modules/contact_form/contact_form.php:36
+msgid "Arabic"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:37, inc/modules/contact_form/contact_form.php:37
+msgid "Azerbaijani"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:38, inc/modules/contact_form/contact_form.php:38
+msgid "Belarusian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:39, inc/modules/contact_form/contact_form.php:39
+msgid "Bulgarian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:40, inc/modules/contact_form/contact_form.php:40
+msgid "Bosnian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:41, inc/modules/contact_form/contact_form.php:41
+msgid "Catal&#224;"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:42, inc/modules/contact_form/contact_form.php:42
+msgid "Czech"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:43, inc/modules/contact_form/contact_form.php:43
+msgid "Welsh/UK"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:44, inc/modules/contact_form/contact_form.php:44
+msgid "Danish"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:45, inc/modules/contact_form/contact_form.php:45
+msgid "German"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:46, inc/modules/contact_form/contact_form.php:46
+msgid "Greek"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:47, inc/modules/contact_form/contact_form.php:47
+msgid "English/Australia"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:48, inc/modules/contact_form/contact_form.php:48
+msgid "English/UK"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:49, inc/modules/contact_form/contact_form.php:49
+msgid "English/New Zealand"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:50, inc/modules/contact_form/contact_form.php:50
+msgid "Esperanto"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:51, inc/modules/contact_form/contact_form.php:51
+msgid "Espa&#241;ol"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:52, inc/modules/contact_form/contact_form.php:52
+msgid "Estonian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:53, inc/modules/contact_form/contact_form.php:53
+msgid "Basque"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:54, inc/modules/contact_form/contact_form.php:54
+msgid "Persian (Farsi)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:55, inc/modules/contact_form/contact_form.php:55
+msgid "Finnish"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:56, inc/modules/contact_form/contact_form.php:56
+msgid "Faroese"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:57, inc/modules/contact_form/contact_form.php:57
+msgid "Canadian-French"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:58, inc/modules/contact_form/contact_form.php:58
+msgid "Swiss-French"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:59, inc/modules/contact_form/contact_form.php:59
+msgid "French"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:60, inc/modules/contact_form/contact_form.php:60
+msgid "Galician"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:61, inc/modules/contact_form/contact_form.php:61
+msgid "Hebrew"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:62, inc/modules/contact_form/contact_form.php:62
+msgid "Hindi"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:63, inc/modules/contact_form/contact_form.php:63
+msgid "Croatian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:64, inc/modules/contact_form/contact_form.php:64
+msgid "Hungarian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:65, inc/modules/contact_form/contact_form.php:65
+msgid "Armenian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:66, inc/modules/contact_form/contact_form.php:66
+msgid "Indonesian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:67, inc/modules/contact_form/contact_form.php:67
+msgid "Icelandic"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:68, inc/modules/contact_form/contact_form.php:68
+msgid "Italian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:69, inc/modules/contact_form/contact_form.php:69
+msgid "Japanese"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:70, inc/modules/contact_form/contact_form.php:70
+msgid "Georgian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:71, inc/modules/contact_form/contact_form.php:71
+msgid "Kazakh"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:72, inc/modules/contact_form/contact_form.php:72
+msgid "Khmer"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:73, inc/modules/contact_form/contact_form.php:73
+msgid "Korean"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:74, inc/modules/contact_form/contact_form.php:74
+msgid "Kyrgyz"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:75, inc/modules/contact_form/contact_form.php:75
+msgid "Luxembourgish"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:76, inc/modules/contact_form/contact_form.php:76
+msgid "Lithuanian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:77, inc/modules/contact_form/contact_form.php:77
+msgid "Latvian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:78, inc/modules/contact_form/contact_form.php:78
+msgid "Macedonian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:79, inc/modules/contact_form/contact_form.php:79
+msgid "Malayalam"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:80, inc/modules/contact_form/contact_form.php:80
+msgid "Malaysian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:81, inc/modules/contact_form/contact_form.php:81
+msgid "Norwegian Bokm&#229;l"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:82, inc/modules/contact_form/contact_form.php:82
+msgid "Dutch (Belgium)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:83, inc/modules/contact_form/contact_form.php:83
+msgid "Dutch"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:84, inc/modules/contact_form/contact_form.php:84
+msgid "Norwegian Nynorsk"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:85, inc/modules/contact_form/contact_form.php:85
+msgid "Norwegian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:86, inc/modules/contact_form/contact_form.php:86
+msgid "Polish"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:87, inc/modules/contact_form/contact_form.php:87
+msgid "Brazilian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:88, inc/modules/contact_form/contact_form.php:88
+msgid "Portuguese"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:89, inc/modules/contact_form/contact_form.php:89
+msgid "Romansh"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:90, inc/modules/contact_form/contact_form.php:90
+msgid "Romanian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:91, inc/modules/contact_form/contact_form.php:91
+msgid "Russian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:92, inc/modules/contact_form/contact_form.php:92
+msgid "Slovak"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:93, inc/modules/contact_form/contact_form.php:93
+msgid "Slovenian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:94, inc/modules/contact_form/contact_form.php:94
+msgid "Albanian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:95, inc/modules/contact_form/contact_form.php:95
+msgid "Serbian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:96, inc/modules/contact_form/contact_form.php:96
+msgid "Serbian 2"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:97, inc/modules/contact_form/contact_form.php:97
+msgid "Swedish"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:98, inc/modules/contact_form/contact_form.php:98
+msgid "Tamil"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:99, inc/modules/contact_form/contact_form.php:99
+msgid "Thai"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:100, inc/modules/contact_form/contact_form.php:100
+msgid "Tajiki"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:101, inc/modules/contact_form/contact_form.php:101
+msgid "Turkish"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:102, inc/modules/contact_form/contact_form.php:102
+msgid "Ukrainian"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:103, inc/modules/contact_form/contact_form.php:103
+msgid "Vietnamese"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:104, inc/modules/contact_form/contact_form.php:104
+msgid "Chinese"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:105, inc/modules/contact_form/contact_form.php:105
+msgid "Chinese 2"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:106, inc/modules/contact_form/contact_form.php:106
+msgid "Chinese 3"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:120, inc/modules/contact_form/contact_form.php:120
+msgid "Recepient(s) email address"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:121, inc/modules/contact_form/contact_form.php:121
+msgid "Please enter the email address where you want the form submissions to be sent. Note that you can enter multiple recipients separated by comma(,)."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:129, inc/modules/contact_form/contact_form.php:129
+msgid "From (Email Sender)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:130, inc/modules/contact_form/contact_form.php:130
+msgid "It's highly recommended to use an email containing this domain name. It may not work otherwise for some hostings. <br><br> The <strong>'Reply-To'</strong> address is the field you validate as 'Value is Email' eg: <a href='http://hogash.d.pr/3OVS' target='_blank'>http://hogash.d.pr/3OVS</a> ."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:140, inc/modules/contact_form/contact_form.php:140
+msgid "Email subject text"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:141, inc/modules/contact_form/contact_form.php:141
+msgid "Please enter your desired text that will appear as the subject of the received email. <strong>Note that you can dynamically set the value of this field by specifying the dynamic field in the fields list.</strong>"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:142, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:1169, inc/modules/contact_form/contact_form.php:142, inc/modules/contact_form/contact_form.php:1169
+msgid "New form submission"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:148, inc/modules/contact_form/contact_form.php:148
+msgid "Mail sent message"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:149, inc/modules/contact_form/contact_form.php:149
+msgid "Please enter your desired text that will appear after the form is successfully sent"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:150, inc/modules/contact_form/contact_form.php:150
+msgid "Thank you for contacting us"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:156, inc/modules/contact_form/contact_form.php:156
+msgid "Redirect url"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:157, inc/modules/contact_form/contact_form.php:157
+msgid "Using this option you can redirect the user after the form is succesfully submitted"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:166, inc/modules/contact_form/contact_form.php:166
+msgid "Show Captcha"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:167, inc/modules/contact_form/contact_form.php:167
+msgid "Select yes if you want to add a Xaptcha field."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:176, inc/modules/contact_form/contact_form.php:176
+msgid "Captcha language"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:177, inc/modules/contact_form/contact_form.php:177
+msgid "Enter the desired Captcha language code ( <a href=\"%s\" target=\"_blank\">you can get it from here</a> )"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:192, inc/modules/contact_form/contact_form.php:192
+msgid "Add your own, custom fields:"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:193, inc/modules/contact_form/contact_form.php:193
+msgid "Here you can create your contact form fields"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:200, inc/modules/contact_form/contact_form.php:200
+msgid "Field name"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:201, inc/modules/contact_form/contact_form.php:201
+msgid "Please enter a name for this field"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:206, inc/modules/contact_form/contact_form.php:206
+msgid "Field type"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:207, inc/modules/contact_form/contact_form.php:207
+msgid "Please select the field type"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:211, inc/modules/contact_form/contact_form.php:211
+msgid "Textarea"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:212, inc/modules/contact_form/contact_form.php:212
+msgid "Select"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:213, inc/modules/contact_form/contact_form.php:213
+msgid "Radio"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:214, inc/modules/contact_form/contact_form.php:214
+msgid "Checkbox"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:215, inc/modules/contact_form/contact_form.php:215
+msgid "Plain text (accepts HTML)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:216, inc/modules/contact_form/contact_form.php:216
+msgid "Datepicker & TimePicker"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:221, inc/modules/contact_form/contact_form.php:221
+msgid "Field validation"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:222, inc/modules/contact_form/contact_form.php:222
+msgid "Please select the field validation"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:226, inc/modules/contact_form/contact_form.php:226
+msgid "No validation"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:227, inc/modules/contact_form/contact_form.php:227
+msgid "Value not empty"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:228, inc/modules/contact_form/contact_form.php:228
+msgid "Value is Email"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:229, inc/modules/contact_form/contact_form.php:229
+msgid "Value is numeric"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:244, inc/modules/contact_form/contact_form.php:244
+msgid "Select/Radio option"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:245, inc/modules/contact_form/contact_form.php:245
+msgid "Please add your values for the select/radio option type in the following format : value:option name, value2:option name 2. For example \"house:House, car:Car, piano:Piano\""
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:254, inc/modules/contact_form/contact_form.php:254
+msgid "Allow multiple select?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:255, inc/modules/contact_form/contact_form.php:255
+msgid "Enable if you want the the user to select multiple options."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:267, inc/modules/contact_form/contact_form.php:267
+msgid "Radio Options Inline?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:268, inc/modules/contact_form/contact_form.php:268
+msgid "Enable if you want the radio options to appear inline, rather than blocks."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:281, inc/modules/contact_form/contact_form.php:281
+msgid "Placeholder"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:282, inc/modules/contact_form/contact_form.php:282
+msgid "Please enter the placeholder value for this field"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:291, inc/modules/contact_form/contact_form.php:291
+msgid "Datepicker Language"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:292, inc/modules/contact_form/contact_form.php:292
+msgid "Please select a datepicker language if needed. Needs page refresh!"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:302, inc/modules/contact_form/contact_form.php:302
+msgid "Date format"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:303, inc/modules/contact_form/contact_form.php:303
+msgid "Enter your desired date format. More info about formatting the date can be found"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:303, inc/modules/contact_form/contact_form.php:303
+msgid "here"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:315, inc/modules/contact_form/contact_form.php:315
+msgid "Enable TimePicker?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:316, inc/modules/contact_form/contact_form.php:316
+msgid "Do you want this datepicker field to display a time picker field as well?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:327, inc/modules/contact_form/contact_form.php:327
+msgid "Timepicker Label text"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:328, inc/modules/contact_form/contact_form.php:328
+msgid "Please add the label value for the timepicker field"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:330, inc/modules/contact_form/contact_form.php:330
+msgid "PICK TIME"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:338, inc/modules/contact_form/contact_form.php:338
+msgid "Field width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:339, inc/modules/contact_form/contact_form.php:339
+msgid "Please select the field width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:343, inc/modules/contact_form/contact_form.php:343
+msgid "Three-Quarters width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:344, inc/modules/contact_form/contact_form.php:344
+msgid "Two-Thirds width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:345, inc/modules/contact_form/contact_form.php:345
+msgid "Half width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:346, inc/modules/contact_form/contact_form.php:346
+msgid "One-Third width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:347, inc/modules/contact_form/contact_form.php:347
+msgid "One-Quarter width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:348, inc/modules/contact_form/contact_form.php:348
+msgid "One-Sixth width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:366, inc/modules/contact_form/contact_form.php:366
+msgid "Style Options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:371, inc/modules/contact_form/contact_form.php:371
+msgid "Form Options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:372, inc/modules/contact_form/contact_form.php:372
+msgid "These are options to customize the form inputs."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:379, inc/modules/contact_form/contact_form.php:379
+msgid "Labels or Placeholders?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:380, inc/modules/contact_form/contact_form.php:380
+msgid "Choose what to display, "
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:383, inc/modules/contact_form/contact_form.php:383
+msgid "Labels"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:383, inc/modules/contact_form/contact_form.php:383
+msgid "Placeholders"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:383, inc/modules/contact_form/contact_form.php:383
+msgid "Both"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:388, inc/modules/contact_form/contact_form.php:388
+msgid "Gutter Size (Distance)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:389, inc/modules/contact_form/contact_form.php:389
+msgid "Select the gutter distance between inputs"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:393, inc/modules/contact_form/contact_form.php:393
+msgid "Default (20px)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:394, inc/modules/contact_form/contact_form.php:394
+msgid "Extra Small (5px)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:395, inc/modules/contact_form/contact_form.php:395
+msgid "Small (15px)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:396, inc/modules/contact_form/contact_form.php:396
+msgid "Medium (30px)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:397, inc/modules/contact_form/contact_form.php:397
+msgid "Large (50px)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:398, inc/modules/contact_form/contact_form.php:398
+msgid "No distance - 0px"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:408, inc/modules/contact_form/contact_form.php:408
+msgid "Send Button Options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:409, inc/modules/contact_form/contact_form.php:409
+msgid "These are options to customize the send button style."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:416, inc/modules/contact_form/contact_form.php:416
+msgid "Submit button label"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:417, inc/modules/contact_form/contact_form.php:417
+msgid "Enter a text for the submit button label."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:418, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:743, inc/modules/contact_form/contact_form.php:418, inc/modules/contact_form/contact_form.php:743
+msgid "Send message"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:424, inc/modules/contact_form/contact_form.php:424
+msgid "Send button style"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:437, inc/modules/contact_form/contact_form.php:437
+msgid "Button Width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:456, inc/modules/contact_form/contact_form.php:456
+msgid "Size"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:466, inc/modules/contact_form/contact_form.php:466
+msgid "Extra small"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:505, inc/modules/contact_form/contact_form.php:505
+msgid "Button Alignment"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:506, inc/modules/contact_form/contact_form.php:506
+msgid "Select the alignment"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:523, inc/modules/contact_form/contact_form.php:523
+msgid "Labels Text Options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:524, inc/modules/contact_form/contact_form.php:524
+msgid "Specify the typography properties for the labels."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:543, inc/modules/contact_form/contact_form.php:543
+msgid "Show send me a copy"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:544, inc/modules/contact_form/contact_form.php:544
+msgid "Select yes if you want to allow users to send a copy of the message to themselves. This requires you to set the email field to have the \"is email\" validation type."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:552, inc/modules/contact_form/contact_form.php:552
+msgid "Enable debugging?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:553, inc/modules/contact_form/contact_form.php:553
+msgid "If you have problems with the contact form, this option will help debug the problem by showing some errors into the response field."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:603, inc/modules/contact_form/contact_form.php:603
+msgid "Please configure the element options and add your contact fields."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:629, inc/modules/contact_form/contact_form.php:629
+msgid "<strong>DEBUG IS ENABLED!</strong> Debug mode is only for development mode and shouldn't be enabled in production mode."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:671, inc/modules/contact_form/contact_form.php:671
+msgid "Send me a copy"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:700, inc/modules/contact_form/contact_form.php:700
+msgid "New Contact Form submission"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:708, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:722, inc/modules/contact_form/contact_form.php:708, inc/modules/contact_form/contact_form.php:722
+msgid "There was a problem submitting your message. Please try again."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:760, inc/modules/contact_form/contact_form.php:760
+msgid "Please complete the Captcha validation"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:982, inc/modules/contact_form/contact_form.php:982
+msgid "Please enter the reCaptcha public and private keys inside the admin panel!"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:1098, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:1101, buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:1108, inc/modules/contact_form/contact_form.php:1098, inc/modules/contact_form/contact_form.php:1101, inc/modules/contact_form/contact_form.php:1108
+msgid "An error occurred. Please try again in a few moments."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:1120, inc/modules/contact_form/contact_form.php:1120
+msgid "The secret parameter is missing."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:1124, inc/modules/contact_form/contact_form.php:1124
+msgid "The secret parameter is invalid or malformed."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:1128, inc/modules/contact_form/contact_form.php:1128
+msgid "Please complete the captcha validation"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:1132, inc/modules/contact_form/contact_form.php:1132
+msgid "The response parameter is invalid or malformed."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:1139, inc/modules/contact_form/contact_form.php:1139
+msgid "Error: ReCaptcha is not properly configured."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:1308, inc/modules/contact_form/contact_form.php:1308
+msgid "Contact Form"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/contact_form/contact_form.php:1309, inc/modules/contact_form/contact_form.php:1309
+msgid "This element will generate a contact form."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/custom_html/custom_html.php:46, buildplugin/zion-builder/inc/modules/custom_html/custom_html.php:69, inc/modules/custom_html/custom_html.php:46, inc/modules/custom_html/custom_html.php:69
+msgid "Custom HTML"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/custom_html/custom_html.php:47, inc/modules/custom_html/custom_html.php:47
+msgid "Using this option you can enter you own custom HTML code. If you plan on adding CSS or JavaScript, wrap the codes into &lt;style type=\"text/css\"&gt;...&lt;/style&gt; respectively &lt;script&gt;...&lt;/script&gt; . <strong>Please make sure your JS code is fully functional</strong> as it might break the entire page!!"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/custom_html/custom_html.php:70, inc/modules/custom_html/custom_html.php:70
+msgid "This element will render HTML code specified by the user."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:36, inc/modules/google_map/google_map.php:36
+msgid "Google Maps Api Key (Mandatory!)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:37, inc/modules/google_map/google_map.php:37
+msgid "Add a Google Map Api Key. More on <a target=\"_blank\" href=\"https://developers.google.com/maps/documentation/javascript/get-api-key#get-an-api-key\">Google Maps Key</a>"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:46, inc/modules/google_map/google_map.php:46
+msgid "Locations"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:47, inc/modules/google_map/google_map.php:47
+msgid "Here you can add your map locations."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:50, inc/modules/google_map/google_map.php:50
+msgid "Map Location"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:53, buildplugin/zion-builder/inc/modules/google_map/google_map.php:247, inc/modules/google_map/google_map.php:53, inc/modules/google_map/google_map.php:247
+msgid "Marker Latitude"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:54, buildplugin/zion-builder/inc/modules/google_map/google_map.php:248, inc/modules/google_map/google_map.php:54, inc/modules/google_map/google_map.php:248
+msgid "Please enter the latitude value for your location. Here's 2 links where you can get the coordinates <a href=\"%s\" target=\"_blank\">LatLong.net</a> or <a href=\"%s\" target=\"_blank\">iTouchMap.com</a>"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:60, buildplugin/zion-builder/inc/modules/google_map/google_map.php:256, inc/modules/google_map/google_map.php:60, inc/modules/google_map/google_map.php:256
+msgid "Marker Longitude"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:61, buildplugin/zion-builder/inc/modules/google_map/google_map.php:257, inc/modules/google_map/google_map.php:61, inc/modules/google_map/google_map.php:257
+msgid "Please enter the longitude value for your location. Here's 2 links where you can get the coordinates <a href=\"%s\" target=\"_blank\">LatLong.net</a> or <a href=\"%s\" target=\"_blank\">iTouchMap.com</a>"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:67, inc/modules/google_map/google_map.php:67
+msgid "Marker tooltip"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:68, inc/modules/google_map/google_map.php:68
+msgid "Add a text that will appear when the user clicks on the marker."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:73, inc/modules/google_map/google_map.php:73
+msgid "Marker location icon"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:74, inc/modules/google_map/google_map.php:74
+msgid "Select an icon that will appear as your current location. The default icon will be used if this is left blank."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:81, inc/modules/google_map/google_map.php:81
+msgid "Marker animation"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:82, inc/modules/google_map/google_map.php:82
+msgid "Select an animation that the icon will use."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:86, inc/modules/google_map/google_map.php:86
+msgid "Drop"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:86, inc/modules/google_map/google_map.php:86
+msgid "Bounce"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:89, inc/modules/google_map/google_map.php:89
+msgid "Icon size"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:90, inc/modules/google_map/google_map.php:90
+msgid "Select the size of the marker icon."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:99, inc/modules/google_map/google_map.php:99
+msgid "Zoom level"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:100, inc/modules/google_map/google_map.php:100
+msgid "Select the start zoom level you want to use for this map ( default is 14 )"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:108, inc/modules/google_map/google_map.php:108
+msgid "Map Type"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:109, inc/modules/google_map/google_map.php:109
+msgid "Select the desired map type you want to use."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:114, inc/modules/google_map/google_map.php:114
+msgid "Roadmap"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:115, inc/modules/google_map/google_map.php:115
+msgid "Satellite"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:116, inc/modules/google_map/google_map.php:116
+msgid "Terrain"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:117, inc/modules/google_map/google_map.php:117
+msgid "Hybrid"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:122, inc/modules/google_map/google_map.php:122
+msgid "Add directions box"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:123, inc/modules/google_map/google_map.php:123
+msgid "Select if you want to add a textbox in which the user can enter a departure location and get directions to the office location (first one if there are more than one)."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:130, inc/modules/google_map/google_map.php:130
+msgid "Directions box text"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:131, inc/modules/google_map/google_map.php:131
+msgid "Please enter the direction box text you want to use."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:133, buildplugin/zion-builder/inc/modules/google_map/google_map.php:333, inc/modules/google_map/google_map.php:133, inc/modules/google_map/google_map.php:333
+msgid "Visit us from..."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:139, inc/modules/google_map/google_map.php:139
+msgid "Directions box position"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:140, inc/modules/google_map/google_map.php:140
+msgid "Please select the direction box's position."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:145, buildplugin/zion-builder/inc/modules/section/section.php:705, inc/modules/google_map/google_map.php:145, inc/modules/section/section.php:705
+msgid "Top Left"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:146, inc/modules/google_map/google_map.php:146
+msgid "Middle Left"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:147, buildplugin/zion-builder/inc/modules/section/section.php:711, inc/modules/google_map/google_map.php:147, inc/modules/section/section.php:711
+msgid "Bottom Left"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:148, buildplugin/zion-builder/inc/modules/section/section.php:707, inc/modules/google_map/google_map.php:148, inc/modules/section/section.php:707
+msgid "Top Right"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:149, inc/modules/google_map/google_map.php:149
+msgid "Middle Right"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:150, buildplugin/zion-builder/inc/modules/section/section.php:713, inc/modules/google_map/google_map.php:150, inc/modules/section/section.php:713
+msgid "Bottom Right"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:151, buildplugin/zion-builder/inc/modules/section/section.php:706, inc/modules/google_map/google_map.php:151, inc/modules/section/section.php:706
+msgid "Top Center"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:152, buildplugin/zion-builder/inc/modules/section/section.php:712, inc/modules/google_map/google_map.php:152, inc/modules/section/section.php:712
+msgid "Bottom Center"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:159, inc/modules/google_map/google_map.php:159
+msgid "Show overview map"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:160, inc/modules/google_map/google_map.php:160
+msgid "Select if you wish to add the overview map option"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:167, inc/modules/google_map/google_map.php:167
+msgid "Show street view"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:168, inc/modules/google_map/google_map.php:168
+msgid "Select if you wish to add the street view option"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:175, inc/modules/google_map/google_map.php:175
+msgid "Show map type"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:176, inc/modules/google_map/google_map.php:176
+msgid "Select if you wish to add the map type option"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:189, inc/modules/google_map/google_map.php:189
+msgid "Map Height"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:190, inc/modules/google_map/google_map.php:190
+msgid "Please select value in pixels for the map height. <br>*TIP: Use 100vh to have a full-height element."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:210, inc/modules/google_map/google_map.php:210
+msgid "Map custom style"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:211, inc/modules/google_map/google_map.php:211
+msgid "Use a custom map style. You can get custom styles from <a href=\"%s\" target=\"_blank\">%s</a>"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:218, inc/modules/google_map/google_map.php:218
+msgid "Normal map style"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:219, buildplugin/zion-builder/inc/modules/google_map/google_map.php:227, inc/modules/google_map/google_map.php:219, inc/modules/google_map/google_map.php:227
+msgid "Paste your custom style here (Javascript style array). You can get custom styles from <a href=\"%s\" target=\"_blank\">%s</a>"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:226, inc/modules/google_map/google_map.php:226
+msgid "Active map style (when a popup is visible)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:239, inc/modules/google_map/google_map.php:239
+msgid "Custom center point"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:240, inc/modules/google_map/google_map.php:240
+msgid "You might want to have the center point of the map onto the a side. Therefore you can custom center the map to show all markers."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:265, inc/modules/google_map/google_map.php:265
+msgid "Allow Mousewheel"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:266, inc/modules/google_map/google_map.php:266
+msgid "Select if you want to allow map zooming using the mouse scroll (may interfere with page scroll)."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:273, inc/modules/google_map/google_map.php:273
+msgid "Map localization"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:274, inc/modules/google_map/google_map.php:274
+msgid "Force the map localization to a specific language"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:278, inc/modules/google_map/google_map.php:278
+msgid "Use browser language"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:300, inc/modules/google_map/google_map.php:300
+msgid "Please configure the element options and add <u>at least one location</u>."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:306, inc/modules/google_map/google_map.php:306
+msgid "Please add a <u>Google Maps API Key</u>."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:308, inc/modules/google_map/google_map.php:308
+msgid "Generate one here"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:449, inc/modules/google_map/google_map.php:449
+msgid "Google Map"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/google_map/google_map.php:450, inc/modules/google_map/google_map.php:450
+msgid "This element will render a Google Map."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:16, inc/modules/heading/heading.php:16
+msgid "Title Text"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:17, inc/modules/heading/heading.php:17
+msgid "Add the title. Shortcodes and HTML code are allowed."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:19, inc/modules/heading/heading.php:19
+msgid "Hello World!"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:24, inc/modules/heading/heading.php:24
+msgid "Title Heading Type"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:25, inc/modules/heading/heading.php:25
+msgid "Select a title heading. The title will be wrapped in this tag."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:37, inc/modules/heading/heading.php:37
+msgid "Paragraph"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:42, inc/modules/heading/heading.php:42
+msgid "Add Link"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:43, inc/modules/heading/heading.php:43
+msgid "Add a link to this heading."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:67, buildplugin/zion-builder/inc/modules/heading/heading.php:81, buildplugin/zion-builder/inc/modules/heading/heading.php:91, buildplugin/zion-builder/inc/modules/heading/heading.php:101, inc/modules/heading/heading.php:67, inc/modules/heading/heading.php:81, inc/modules/heading/heading.php:91, inc/modules/heading/heading.php:101
+msgid "Title settings"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:68, buildplugin/zion-builder/inc/modules/heading/heading.php:82, buildplugin/zion-builder/inc/modules/heading/heading.php:92, buildplugin/zion-builder/inc/modules/heading/heading.php:102, inc/modules/heading/heading.php:68, inc/modules/heading/heading.php:82, inc/modules/heading/heading.php:92, inc/modules/heading/heading.php:102
+msgid "Specify the typography properties for the title."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:111, inc/modules/heading/heading.php:111
+msgid "Color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:112, inc/modules/heading/heading.php:112
+msgid "Choose the text color."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:136, inc/modules/heading/heading.php:136
+msgid "Hover Color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:137, inc/modules/heading/heading.php:137
+msgid "Choose the Hover Color. Will work only if linked!!"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:149, inc/modules/heading/heading.php:149
+msgid "Spacing settings"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:261, inc/modules/heading/heading.php:261
+msgid "Heading"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/heading/heading.php:262, inc/modules/heading/heading.php:262
+msgid "This element will generate a heading element."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:168, inc/modules/icon/icon.php:168
+msgid "Icon Type"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:169, inc/modules/icon/icon.php:169
+msgid "Type of the icon."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:174, inc/modules/icon/icon.php:174
+msgid "Font Icon"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:180, inc/modules/icon/icon.php:180
+msgid "Image Icon"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:181, inc/modules/icon/icon.php:181
+msgid "Upload an Icon Image."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:189, buildplugin/zion-builder/inc/modules/tabs/tabs.php:39, inc/modules/icon/icon.php:189, inc/modules/tabs/tabs.php:39
+msgid "Select Icon"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:190, buildplugin/zion-builder/inc/modules/tabs/tabs.php:40, inc/modules/icon/icon.php:190, inc/modules/tabs/tabs.php:40
+msgid "Select an icon to display."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:200, buildplugin/zion-builder/inc/modules/image/image.php:128, buildplugin/zion-builder/inc/modules/image/image.php:133, inc/modules/icon/icon.php:200, inc/modules/image/image.php:128, inc/modules/image/image.php:133
+msgid "Custom URL"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:201, buildplugin/zion-builder/inc/modules/image/image.php:134, inc/modules/icon/icon.php:201, inc/modules/image/image.php:134
+msgid "Choose a custom URL"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:225, buildplugin/zion-builder/inc/modules/image/image.php:48, inc/modules/icon/icon.php:225, inc/modules/image/image.php:48
+msgid "Choose the image's alignment."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:236, buildplugin/zion-builder/inc/modules/icon/icon.php:255, buildplugin/zion-builder/inc/modules/icon/icon.php:269, buildplugin/zion-builder/inc/modules/icon/icon.php:283, buildplugin/zion-builder/inc/modules/image/image.php:59, buildplugin/zion-builder/inc/modules/image/image.php:78, buildplugin/zion-builder/inc/modules/image/image.php:92, buildplugin/zion-builder/inc/modules/image/image.php:106, inc/modules/icon/icon.php:236, inc/modules/icon/icon.php:255, inc/modules/icon/icon.php:269, inc/modules/icon/icon.php:283, inc/modules/image/image.php:59, inc/modules/image/image.php:78, inc/modules/image/image.php:92, inc/modules/image/image.php:106
+msgid "Select the image alignment."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:254, buildplugin/zion-builder/inc/modules/image/image.php:77, buildplugin/zion-builder/inc/modules/separator/separator.php:120, inc/modules/icon/icon.php:254, inc/modules/image/image.php:77, inc/modules/separator/separator.php:120
+msgid "Alignment (Tablets)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:268, buildplugin/zion-builder/inc/modules/image/image.php:91, buildplugin/zion-builder/inc/modules/separator/separator.php:134, inc/modules/icon/icon.php:268, inc/modules/image/image.php:91, inc/modules/separator/separator.php:134
+msgid "Alignment (Small tablets)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:282, buildplugin/zion-builder/inc/modules/image/image.php:105, buildplugin/zion-builder/inc/modules/separator/separator.php:148, inc/modules/icon/icon.php:282, inc/modules/image/image.php:105, inc/modules/separator/separator.php:148
+msgid "Alignment (Smartphones)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:298, inc/modules/icon/icon.php:298
+msgid "Colors"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:306, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:188, buildplugin/zion-builder/inc/modules/separator/separator.php:195, inc/modules/icon/icon.php:306, inc/modules/icon_list/icon_list.php:188, inc/modules/separator/separator.php:195
+msgid "Icon Color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:307, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:137, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:189, inc/modules/icon/icon.php:307, inc/modules/icon_list/icon_list.php:137, inc/modules/icon_list/icon_list.php:189
+msgid "Color of the icon."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:322, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:202, inc/modules/icon/icon.php:322, inc/modules/icon_list/icon_list.php:202
+msgid "Icon Hover Color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:323, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:145, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:203, inc/modules/icon/icon.php:323, inc/modules/icon_list/icon_list.php:145, inc/modules/icon_list/icon_list.php:203
+msgid "Hover Color of the icon."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:332, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:210, buildplugin/zion-builder/inc/modules/section/section.php:322, inc/modules/icon/icon.php:332, inc/modules/icon_list/icon_list.php:210, inc/modules/section/section.php:322
+msgid "Background Color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:333, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:153, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:211, inc/modules/icon/icon.php:333, inc/modules/icon_list/icon_list.php:153, inc/modules/icon_list/icon_list.php:211
+msgid "The icon's background color on normal state."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:346, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:160, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:224, inc/modules/icon/icon.php:346, inc/modules/icon_list/icon_list.php:160, inc/modules/icon_list/icon_list.php:224
+msgid "Background Hover Color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:347, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:161, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:225, inc/modules/icon/icon.php:347, inc/modules/icon_list/icon_list.php:161, inc/modules/icon_list/icon_list.php:225
+msgid "The icon's background color on hover."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:355, inc/modules/icon/icon.php:355
+msgid "Sizing"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:363, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:241, inc/modules/icon/icon.php:363, inc/modules/icon_list/icon_list.php:241
+msgid "Icon Size"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:364, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:242, inc/modules/icon/icon.php:364, inc/modules/icon_list/icon_list.php:242
+msgid "Select the size of the icon."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:384, buildplugin/zion-builder/inc/modules/image/image.php:29, buildplugin/zion-builder/inc/modules/section/section.php:690, inc/modules/icon/icon.php:384, inc/modules/image/image.php:29, inc/modules/section/section.php:690
+msgid "Image Size"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:385, inc/modules/icon/icon.php:385
+msgid "Select the size of the image."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:405, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:260, inc/modules/icon/icon.php:405, inc/modules/icon_list/icon_list.php:260
+msgid "Icon Padding"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:406, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:261, inc/modules/icon/icon.php:406, inc/modules/icon_list/icon_list.php:261
+msgid "Select the padding of the icon."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:425, inc/modules/icon/icon.php:425
+msgid "Styling"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:433, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:287, inc/modules/icon/icon.php:433, inc/modules/icon_list/icon_list.php:287
+msgid "Add Border"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:434, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:288, inc/modules/icon/icon.php:434, inc/modules/icon_list/icon_list.php:288
+msgid "Enable if you want to add a border around the icon."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:446, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:300, buildplugin/zion-builder/inc/modules/image/image.php:234, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:92, inc/modules/icon/icon.php:446, inc/modules/icon_list/icon_list.php:300, inc/modules/image/image.php:234, inc/modules/smart_container/smart_container.php:92
+msgid "Border Radius"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:447, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:301, inc/modules/icon/icon.php:447, inc/modules/icon_list/icon_list.php:301
+msgid "Choose the corner roundness of the icon. Only works if there is a background color or border."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:466, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:319, inc/modules/icon/icon.php:466, inc/modules/icon_list/icon_list.php:319
+msgid "Icon Opacity"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:467, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:320, inc/modules/icon/icon.php:467, inc/modules/icon_list/icon_list.php:320
+msgid "Select the opacity of the icon."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:486, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:339, inc/modules/icon/icon.php:486, inc/modules/icon_list/icon_list.php:339
+msgid "Misc. options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:494, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:347, inc/modules/icon/icon.php:494, inc/modules/icon_list/icon_list.php:347
+msgid "Force equal dimensions"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:495, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:348, inc/modules/icon/icon.php:495, inc/modules/icon_list/icon_list.php:348
+msgid "Enable if you want to force the icon's width and height to be equal (eg: perfect circle, perfect square)."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:507, inc/modules/icon/icon.php:507
+msgid "Add Floating Animation"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:508, inc/modules/icon/icon.php:508
+msgid "Enable this if you want to apply a floating up and down animation."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:548, buildplugin/zion-builder/inc/modules/separator/separator.php:185, inc/modules/icon/icon.php:548, inc/modules/separator/separator.php:185
+msgid "Icon"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon/icon.php:549, inc/modules/icon/icon.php:549
+msgid "This element will display an icon."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:21, inc/modules/icon_list/icon_list.php:21
+msgid "List Layout"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:22, inc/modules/icon_list/icon_list.php:22
+msgid "Select the list's layout."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:27, inc/modules/icon_list/icon_list.php:27
+msgid "Vertical."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:28, inc/modules/icon_list/icon_list.php:28
+msgid "Horizontal."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:39, inc/modules/icon_list/icon_list.php:39
+msgid "Select the list alignment."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:47, inc/modules/icon_list/icon_list.php:47
+msgid "Justify"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:57, inc/modules/icon_list/icon_list.php:57
+msgid "Items Distance"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:58, inc/modules/icon_list/icon_list.php:58
+msgid "Select the distance between items."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:98, inc/modules/icon_list/icon_list.php:98
+msgid "List Items"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:99, inc/modules/icon_list/icon_list.php:99
+msgid "Add List Items."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:103, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:104, inc/modules/icon_list/icon_list.php:103, inc/modules/icon_list/icon_list.php:104
+msgid "List Item"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:110, inc/modules/icon_list/icon_list.php:110
+msgid "List item text"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:111, inc/modules/icon_list/icon_list.php:111
+msgid "Here you can add text. Please know it also accepts HTML code."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:117, inc/modules/icon_list/icon_list.php:117
+msgid "List item link"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:118, inc/modules/icon_list/icon_list.php:118
+msgid "Wrap the list item into a custom link. If this field is left blank, the item will not be linked."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:127, inc/modules/icon_list/icon_list.php:127
+msgid "Select your desired icon."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:136, inc/modules/icon_list/icon_list.php:136
+msgid "Icon Color (Custom)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:144, inc/modules/icon_list/icon_list.php:144
+msgid "Icon Hover Color (Custom)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:152, inc/modules/icon_list/icon_list.php:152
+msgid "Background Color (Custom)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:180, inc/modules/icon_list/icon_list.php:180
+msgid "Icon Colors"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:233, inc/modules/icon_list/icon_list.php:233
+msgid "Icon Sizing"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:279, inc/modules/icon_list/icon_list.php:279
+msgid "Icon Decorations"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:367, inc/modules/icon_list/icon_list.php:367
+msgid "List items typography"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:368, inc/modules/icon_list/icon_list.php:368
+msgid "Specify the typography properties for the list items."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:426, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:429, buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:432, inc/modules/icon_list/icon_list.php:426, inc/modules/icon_list/icon_list.php:429, inc/modules/icon_list/icon_list.php:432
+msgid "List item"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:607, inc/modules/icon_list/icon_list.php:607
+msgid "IconList"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/icon_list/icon_list.php:608, inc/modules/icon_list/icon_list.php:608
+msgid "Create a vertical or horizontal list with icons."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:17, inc/modules/image/image.php:17
+msgid "GENERAL"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:22, inc/modules/image/image.php:22
+msgid "Please select an image that will appear above the title."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:30, buildplugin/zion-builder/inc/modules/section/section.php:691, inc/modules/image/image.php:30, inc/modules/section/section.php:691
+msgid "Choose the image's size"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:38, inc/modules/image/image.php:38
+msgid "Image Resize"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:39, inc/modules/image/image.php:39
+msgid "Resize the image with your custom desired dimensions. Keep in mind that you can add a width AND | OR height, in order to maintain the aspect ration of the image."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:120, inc/modules/image/image.php:120
+msgid "Link To"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:121, inc/modules/image/image.php:121
+msgid "Select the link type"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:151, buildplugin/zion-builder/inc/modules/separator/separator.php:70, buildplugin/zion-builder/inc/modules/video/video.php:236, inc/modules/image/image.php:151, inc/modules/separator/separator.php:70, inc/modules/video/video.php:236
+msgid "Size (Max-Width)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:152, inc/modules/image/image.php:152
+msgid "Customize the size of this image."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:235, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:93, inc/modules/image/image.php:235, inc/modules/smart_container/smart_container.php:93
+msgid "Customize the border radius (corner roundness)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:248, inc/modules/image/image.php:248
+msgid "Hover Animation"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:249, inc/modules/image/image.php:249
+msgid "Choose a hover animation."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:254, inc/modules/image/image.php:254
+msgid "None."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:255, inc/modules/image/image.php:255
+msgid "Fade In."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:256, inc/modules/image/image.php:256
+msgid "Fade Out."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:257, inc/modules/image/image.php:257
+msgid "Zoom In."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:258, inc/modules/image/image.php:258
+msgid "Zoom Out."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:263, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:105, inc/modules/image/image.php:263, inc/modules/smart_container/smart_container.php:105
+msgid "Image Shadow"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:264, buildplugin/zion-builder/inc/modules/section/section.php:589, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:106, inc/modules/image/image.php:264, inc/modules/section/section.php:589, inc/modules/smart_container/smart_container.php:106
+msgid "Please select a shadow style."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:268, buildplugin/zion-builder/inc/modules/image/image.php:290, buildplugin/zion-builder/inc/modules/section/section.php:12, buildplugin/zion-builder/inc/modules/section/section.php:607, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:110, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:132, inc/modules/image/image.php:268, inc/modules/image/image.php:290, inc/modules/section/section.php:12, inc/modules/section/section.php:607, inc/modules/smart_container/smart_container.php:110, inc/modules/smart_container/smart_container.php:132
+msgid "No shadow"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:269, buildplugin/zion-builder/inc/modules/image/image.php:291, buildplugin/zion-builder/inc/modules/section/section.php:13, buildplugin/zion-builder/inc/modules/section/section.php:608, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:111, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:133, inc/modules/image/image.php:269, inc/modules/image/image.php:291, inc/modules/section/section.php:13, inc/modules/section/section.php:608, inc/modules/smart_container/smart_container.php:111, inc/modules/smart_container/smart_container.php:133
+msgid "Shadow 1x"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:270, buildplugin/zion-builder/inc/modules/image/image.php:292, buildplugin/zion-builder/inc/modules/section/section.php:14, buildplugin/zion-builder/inc/modules/section/section.php:609, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:112, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:134, inc/modules/image/image.php:270, inc/modules/image/image.php:292, inc/modules/section/section.php:14, inc/modules/section/section.php:609, inc/modules/smart_container/smart_container.php:112, inc/modules/smart_container/smart_container.php:134
+msgid "Shadow 2x"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:271, buildplugin/zion-builder/inc/modules/image/image.php:293, buildplugin/zion-builder/inc/modules/section/section.php:15, buildplugin/zion-builder/inc/modules/section/section.php:610, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:113, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:135, inc/modules/image/image.php:271, inc/modules/image/image.php:293, inc/modules/section/section.php:15, inc/modules/section/section.php:610, inc/modules/smart_container/smart_container.php:113, inc/modules/smart_container/smart_container.php:135
+msgid "Shadow 3x"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:272, buildplugin/zion-builder/inc/modules/image/image.php:294, buildplugin/zion-builder/inc/modules/section/section.php:16, buildplugin/zion-builder/inc/modules/section/section.php:611, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:114, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:136, inc/modules/image/image.php:272, inc/modules/image/image.php:294, inc/modules/section/section.php:16, inc/modules/section/section.php:611, inc/modules/smart_container/smart_container.php:114, inc/modules/smart_container/smart_container.php:136
+msgid "Shadow 4x"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:273, buildplugin/zion-builder/inc/modules/image/image.php:295, buildplugin/zion-builder/inc/modules/section/section.php:17, buildplugin/zion-builder/inc/modules/section/section.php:612, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:115, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:137, inc/modules/image/image.php:273, inc/modules/image/image.php:295, inc/modules/section/section.php:17, inc/modules/section/section.php:612, inc/modules/smart_container/smart_container.php:115, inc/modules/smart_container/smart_container.php:137
+msgid "Shadow 5x"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:274, buildplugin/zion-builder/inc/modules/image/image.php:296, buildplugin/zion-builder/inc/modules/section/section.php:18, buildplugin/zion-builder/inc/modules/section/section.php:613, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:116, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:138, inc/modules/image/image.php:274, inc/modules/image/image.php:296, inc/modules/section/section.php:18, inc/modules/section/section.php:613, inc/modules/smart_container/smart_container.php:116, inc/modules/smart_container/smart_container.php:138
+msgid "Shadow 6x"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:285, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:127, inc/modules/image/image.php:285, inc/modules/smart_container/smart_container.php:127
+msgid "Image Shadow - Hover"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:286, buildplugin/zion-builder/inc/modules/section/section.php:603, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:128, inc/modules/image/image.php:286, inc/modules/section/section.php:603, inc/modules/smart_container/smart_container.php:128
+msgid "Please select a shadow style for hover state."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/image/image.php:556, inc/modules/image/image.php:556
+msgid "This element will display an image."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/revolution_slider/revolution_slider.php:105, inc/modules/revolution_slider/revolution_slider.php:105
+msgid "Revolution slider"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/revolution_slider/revolution_slider.php:106, inc/modules/revolution_slider/revolution_slider.php:106
+msgid "This element will display a Revolution Slider."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:31, inc/modules/section/section.php:31
+msgid "Select the desired size type for this section."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:35, inc/modules/section/section.php:35
+msgid "Container Width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:36, inc/modules/section/section.php:36
+msgid "Full Width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:37, inc/modules/section/section.php:37
+msgid "Custom Width (px)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:38, inc/modules/section/section.php:38
+msgid "Custom Width Percentage (%)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:57, inc/modules/section/section.php:57
+msgid "Custom Width"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:58, buildplugin/zion-builder/inc/modules/section/section.php:77, inc/modules/section/section.php:58, inc/modules/section/section.php:77
+msgid "Choose the desired width for the section's container."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:76, inc/modules/section/section.php:76
+msgid "Custom Width ( in Percentage %)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:95, inc/modules/section/section.php:95
+msgid "Side Padding"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:96, inc/modules/section/section.php:96
+msgid "Disable this option if you want to hide the container's side padding."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:108, inc/modules/section/section.php:108
+msgid "Height Type"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:109, inc/modules/section/section.php:109
+msgid "Select the desired height for this section."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:113, inc/modules/section/section.php:113
+msgid "Auto"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:114, buildplugin/zion-builder/inc/modules/section/section.php:125, inc/modules/section/section.php:114, inc/modules/section/section.php:125
+msgid "Custom Height"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:126, inc/modules/section/section.php:126
+msgid "Choose the desired height for this section. You can choose either height or min-height as a property. Height will force a fixed size rather than just a minimum. <br>*TIP: Use 100vh to have a full-height element."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:147, inc/modules/section/section.php:147
+msgid "Vertical Align"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:152, inc/modules/section/section.php:152
+msgid "Top"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:153, inc/modules/section/section.php:153
+msgid "Middle"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:154, inc/modules/section/section.php:154
+msgid "Bottom"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:166, inc/modules/section/section.php:166
+msgid "Gutter Size (Gaps)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:167, buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:158, inc/modules/section/section.php:167, inc/modules/smart_container/smart_container.php:158
+msgid "Select the gutter distance between columns"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:198, buildplugin/zion-builder/inc/modules/text_box/text_box.php:128, inc/modules/section/section.php:198, inc/modules/text_box/text_box.php:128
+msgid "This will enable you to have more control over the padding of the container on each device. Click to see <a href='http://hogash.d.pr/1f0nW' target='_blank'>how box-model works</a>."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:364, inc/modules/section/section.php:364
+msgid "Enable Scrolling Parallax effect"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:365, inc/modules/section/section.php:365
+msgid "Select if you want to enable parallax scrolling effect on background image."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:565, inc/modules/section/section.php:565
+msgid "You can use a tool such as <a href=\"%s\" target=\"_blank\">%s</a> to generate a unique custom gradient. Here's a quick video explainer <a href=\"%s\" target=\"_blank\">%s</a> how to generate and paste the code here"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:573, inc/modules/section/section.php:573
+msgid "Gloss Overlay"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:574, inc/modules/section/section.php:574
+msgid "Display a gloss over the background"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:582, inc/modules/section/section.php:582
+msgid "Other Options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:588, inc/modules/section/section.php:588
+msgid "Shadow"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:602, inc/modules/section/section.php:602
+msgid "Shadow Hover"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:636, inc/modules/section/section.php:636
+msgid "Z-Index Stack Order"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:637, inc/modules/section/section.php:637
+msgid "Please select a z-index order in layer."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:656, inc/modules/section/section.php:656
+msgid "Section Layers"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:662, inc/modules/section/section.php:662
+msgid "Parallax Layers"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:663, inc/modules/section/section.php:663
+msgid "Here you can add your desired layers."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:667, buildplugin/zion-builder/inc/modules/section/section.php:668, inc/modules/section/section.php:667, inc/modules/section/section.php:668
+msgid "Layer"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:674, inc/modules/section/section.php:674
+msgid "Layer Title"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:675, inc/modules/section/section.php:675
+msgid "Add a title for this layer. Optional, not visible."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:682, inc/modules/section/section.php:682
+msgid "Layer Image"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:683, inc/modules/section/section.php:683
+msgid "Choose an image."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:699, inc/modules/section/section.php:699
+msgid "Start Position"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:700, inc/modules/section/section.php:700
+msgid "Choose the starting point on the X/Y axis of the section."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:708, inc/modules/section/section.php:708
+msgid "Center Left"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:710, inc/modules/section/section.php:710
+msgid "Center Right"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:723, inc/modules/section/section.php:723
+msgid "Margins"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:724, inc/modules/section/section.php:724
+msgid "Position the layer using margins."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:737, inc/modules/section/section.php:737
+msgid "Blur Effect"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:738, inc/modules/section/section.php:738
+msgid "Select if you want to add a blurring effect. Works only in browsers supporting CSS Filters."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:744, inc/modules/section/section.php:744
+msgid "Simple Blur"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:745, inc/modules/section/section.php:745
+msgid "Deep Blur"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:746, inc/modules/section/section.php:746
+msgid "Deeper Blur (3x)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:801, buildplugin/zion-builder/inc/modules/section/section.php:807, inc/modules/section/section.php:801, inc/modules/section/section.php:807
+msgid "Over Container"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:802, inc/modules/section/section.php:802
+msgid "Enable if you want to display this layer over the section's container."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:808, inc/modules/section/section.php:808
+msgid "Behind Container"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:818, inc/modules/section/section.php:818
+msgid "Hide on Breakpoints"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:819, inc/modules/section/section.php:819
+msgid "Choose to hide this layer on either desktop, mobile or tablets."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:1060, inc/modules/section/section.php:1060
+msgid "Section"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/section/section.php:1061, inc/modules/section/section.php:1061
+msgid "This element will generate a section in which you can add elements"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:18, inc/modules/separator/separator.php:18
+msgid "Separator color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:19, inc/modules/separator/separator.php:19
+msgid "Select the color for separator line."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:41, inc/modules/separator/separator.php:41
+msgid "Separator height"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:42, inc/modules/separator/separator.php:42
+msgid "Select the separator line height (in pixels)."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:71, inc/modules/separator/separator.php:71
+msgid "Customize the size of this separator."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:90, inc/modules/separator/separator.php:90
+msgid "Separator Alignment"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:91, inc/modules/separator/separator.php:91
+msgid "Choose the separator's alignment."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:102, buildplugin/zion-builder/inc/modules/separator/separator.php:121, buildplugin/zion-builder/inc/modules/separator/separator.php:135, buildplugin/zion-builder/inc/modules/separator/separator.php:149, inc/modules/separator/separator.php:102, inc/modules/separator/separator.php:121, inc/modules/separator/separator.php:135, inc/modules/separator/separator.php:149
+msgid "Select the separator alignment."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:172, inc/modules/separator/separator.php:172
+msgid "Add Icon?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:173, inc/modules/separator/separator.php:173
+msgid "Choose if you want to add an icon in the center of the separator."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:186, inc/modules/separator/separator.php:186
+msgid "Add icon."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:196, inc/modules/separator/separator.php:196
+msgid "Select icon color."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:212, inc/modules/separator/separator.php:212
+msgid "Select the icon size in px."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:349, inc/modules/separator/separator.php:349
+msgid "Separator"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/separator/separator.php:350, inc/modules/separator/separator.php:350
+msgid "This element will generate a separator line with various styles."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/sidebar/sidebar.php:65, inc/modules/sidebar/sidebar.php:65
+msgid "Select sidebar"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/sidebar/sidebar.php:66, inc/modules/sidebar/sidebar.php:66
+msgid "Select your desired sidebar to be used on this post"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/sidebar/sidebar.php:90, inc/modules/sidebar/sidebar.php:90
+msgid "Sidebar"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/sidebar/sidebar.php:91, inc/modules/sidebar/sidebar.php:91
+msgid "This element will display a sidebar."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/smart_area/smart_area.php:28, inc/modules/smart_area/smart_area.php:28
+msgid "Select Pagebuilder Template"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/smart_area/smart_area.php:29, inc/modules/smart_area/smart_area.php:29
+msgid "Using this option you can select a pre-built Smart Area created in Admin > Page Builder Smart Areas."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/smart_area/smart_area.php:78, buildplugin/zion-builder/inc/smart_areas/ZionSmartArea.php:58, inc/modules/smart_area/smart_area.php:78, inc/smart_areas/ZionSmartArea.php:58
+msgid "Page Builder Smart Area"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/smart_area/smart_area.php:79, inc/modules/smart_area/smart_area.php:79
+msgid "This element will display a Smart Area."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:11, inc/modules/smart_container/smart_container.php:11
+msgid "Style options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:16, inc/modules/smart_container/smart_container.php:16
+msgid "Background color"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:17, inc/modules/smart_container/smart_container.php:17
+msgid "Here you can choose a custom background color for this container."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:31, inc/modules/smart_container/smart_container.php:31
+msgid "Background image"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:145, inc/modules/smart_container/smart_container.php:145
+msgid "Spacing options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:157, inc/modules/smart_container/smart_container.php:157
+msgid "Gutter Size"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:319, inc/modules/smart_container/smart_container.php:319
+msgid "Smart Container"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/smart_container/smart_container.php:320, inc/modules/smart_container/smart_container.php:320
+msgid "This element will generate a smart custom container in which you can add elements."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/spacer/spacer.php:22, inc/modules/spacer/spacer.php:22
+msgid "Spacer Height"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/spacer/spacer.php:23, inc/modules/spacer/spacer.php:23
+msgid "Choose the desired height for this element."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/spacer/spacer.php:91, inc/modules/spacer/spacer.php:91
+msgid "Spacer"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/spacer/spacer.php:92, inc/modules/spacer/spacer.php:92
+msgid "This element will generate a transparent spacer."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/tabs/tabs.php:13, buildplugin/zion-builder/inc/modules/tabs/tabs.php:257, inc/modules/tabs/tabs.php:13, inc/modules/tabs/tabs.php:257
+msgid "Tabs"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/tabs/tabs.php:14, inc/modules/tabs/tabs.php:14
+msgid "Here you can add your desired tabs."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/tabs/tabs.php:18, buildplugin/zion-builder/inc/modules/tabs/tabs.php:19, inc/modules/tabs/tabs.php:18, inc/modules/tabs/tabs.php:19
+msgid "Tab"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/tabs/tabs.php:24, inc/modules/tabs/tabs.php:24
+msgid "Tab Title"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/tabs/tabs.php:25, buildplugin/zion-builder/inc/modules/tabs/tabs.php:32, inc/modules/tabs/tabs.php:25, inc/modules/tabs/tabs.php:32
+msgid "Please enter the desired title that will appear as tab."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/tabs/tabs.php:31, inc/modules/tabs/tabs.php:31
+msgid "Display Icon?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/tabs/tabs.php:59, inc/modules/tabs/tabs.php:59
+msgid "Tab Buttons Alignment"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/tabs/tabs.php:60, inc/modules/tabs/tabs.php:60
+msgid "Please select an alignment for the Tab Buttons"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/tabs/tabs.php:68, inc/modules/tabs/tabs.php:68
+msgid "Justified"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/tabs/tabs.php:258, inc/modules/tabs/tabs.php:258
+msgid "This element will generate group of tabs."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/text_box/text_box.php:109, inc/modules/text_box/text_box.php:109
+msgid "Please enter the box content.<br> ** If you plan on <strong style='color:black'>pasting a shortcode</strong>, please make sure to add it in <strong style='color:black'><em>Text Mode</em></strong> of the editor."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/text_box/text_box.php:246, inc/modules/text_box/text_box.php:246
+msgid "Text Box"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/text_box/text_box.php:247, inc/modules/text_box/text_box.php:247
+msgid "Create and display a Text Box element"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:21, inc/modules/video/video.php:21
+msgid "Video Source Type"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:22, inc/modules/video/video.php:22
+msgid "Select the type of video source."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:27, inc/modules/video/video.php:27
+msgid "Youtube"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:28, inc/modules/video/video.php:28
+msgid "Vimeo"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:29, inc/modules/video/video.php:29
+msgid "Self hosted video (Clean browser player)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:30, inc/modules/video/video.php:30
+msgid "Self hosted video (MediaElement Player)"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:31, inc/modules/video/video.php:31
+msgid "Other External Source"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:36, inc/modules/video/video.php:36
+msgid "Video URL"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:37, inc/modules/video/video.php:37
+msgid "Please enter a link to your desired video ( Youtube, Vimeo or other )."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:89, inc/modules/video/video.php:89
+msgid "Enable autoplay for video?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:103, inc/modules/video/video.php:103
+msgid "Enable looping the video?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:116, inc/modules/video/video.php:116
+msgid "Video controls"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:117, inc/modules/video/video.php:117
+msgid "Enable video controls?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:133, inc/modules/video/video.php:133
+msgid "Youtube Video - Modest branding"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:134, inc/modules/video/video.php:134
+msgid "Display modest branding for Youtube video?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:147, inc/modules/video/video.php:147
+msgid "Youtube Video - Autohide branding"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:148, inc/modules/video/video.php:148
+msgid "Autohide branding for Youtube video?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:160, inc/modules/video/video.php:160
+msgid "Youtube Video - Show Info"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:161, inc/modules/video/video.php:161
+msgid "Hide various info for the youtube video?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:173, inc/modules/video/video.php:173
+msgid "Youtube Video - Hide Related"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:174, inc/modules/video/video.php:174
+msgid "Hide related videos on the video ending?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:190, inc/modules/video/video.php:190
+msgid "Vimeo Video - Hide title"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:191, inc/modules/video/video.php:191
+msgid "Hide title for Vimeo video?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:203, inc/modules/video/video.php:203
+msgid "Vimeo Video - Hide Video uploader"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:204, inc/modules/video/video.php:204
+msgid "Hide video uploader (author) for Vimeo video?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:216, inc/modules/video/video.php:216
+msgid "Vimeo Video - Hide Avatar"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:217, inc/modules/video/video.php:217
+msgid "Hide uploader avatar for Vimeo video?"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:237, inc/modules/video/video.php:237
+msgid "Customize the size of this video."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:415, inc/modules/video/video.php:415
+msgid "Video"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/video/video.php:416, inc/modules/video/video.php:416
+msgid "Video player or Image triggering a modal window with a Youtube or Vimeo video."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/widget/options.php:24, inc/modules/widget/options.php:24
+msgid "Widget Options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/widget/options.php:47, buildplugin/zion-builder/inc/modules/widget/widget.php:87, inc/modules/widget/options.php:47, inc/modules/widget/widget.php:87
+msgctxt "%s stands for widget slug."
+msgid "%s does not exists."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/widget/options.php:50, inc/modules/widget/options.php:50
+msgid "There was a problem getting the widget options"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/widget/widget.php:97, inc/modules/widget/widget.php:97
+msgid "Widget"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/modules/widget/widget.php:98, inc/modules/widget/widget.php:98
+msgid "This element will display a WordPress widget."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/smart_areas/ZionSmartArea.php:57, inc/smart_areas/ZionSmartArea.php:57
+msgid "Page Builder Smart Areas"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/smart_areas/ZionSmartArea.php:59, inc/smart_areas/ZionSmartArea.php:59
+msgid "Add New"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/smart_areas/ZionSmartArea.php:60, inc/smart_areas/ZionSmartArea.php:60
+msgid "Add New Page Builder Smart Area"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/smart_areas/ZionSmartArea.php:61, inc/smart_areas/ZionSmartArea.php:61
+msgid "Edit Page Builder Smart Area"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/smart_areas/ZionSmartArea.php:62, inc/smart_areas/ZionSmartArea.php:62
+msgid "New Page Builder Smart Area"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/smart_areas/ZionSmartArea.php:63, inc/smart_areas/ZionSmartArea.php:63
+msgid "View Page Builder Smart Area"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/smart_areas/ZionSmartArea.php:64, inc/smart_areas/ZionSmartArea.php:64
+msgid "Search Page Builder Smart Areas"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/smart_areas/ZionSmartArea.php:65, inc/smart_areas/ZionSmartArea.php:65
+msgid "No Page Builder Smart Areas found"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/smart_areas/ZionSmartArea.php:66, inc/smart_areas/ZionSmartArea.php:66
+msgid "No Page Builder Smart Areas found in Trash"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/smart_areas/ZionSmartArea.php:103, inc/smart_areas/ZionSmartArea.php:103
+msgid "Page builder Smart Areas are predefined blocks of page builder elements you can insert in your website's pages, globally or per page. <a href=\"%s\" target=\"_blank\">Read more</a>."
+msgstr ""
+
+#: buildplugin/zion-builder/inc/ZionElementsManager.php:77, inc/ZionElementsManager.php:77
+msgid "The element must derive from the ZionElement class"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/ZionPageBuilderFrontend.php:350, inc/ZionPageBuilderFrontend.php:350
+msgid "Edit smart area with pagebuilder"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/ZionPageBuilderFrontend.php:511, inc/ZionPageBuilderFrontend.php:511
+msgid "View page"
+msgstr ""
+
+#: buildplugin/zion-builder/inc/ZionPageBuilderFrontend.php:518, inc/ZionPageBuilderFrontend.php:518
+msgid "Edit with page builder"
+msgstr ""

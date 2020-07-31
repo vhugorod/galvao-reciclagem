@@ -1,0 +1,25 @@
+.widget_zn_mailchimp .dn-widgetTitle h3 { font-size: 16px; color: #777; }
+
+.dn-widgetNewsletter .dn-widget { padding-left: 40px; padding-right: 40px; }
+
+.dn-widgetNewsletter .dn-widgetTitle { margin-bottom: 40px; }
+
+.dn-widgetNewsletter-intro { margin-bottom: 40px; font-weight: 600; font-size: 24px; text-transform: uppercase; line-height: 1.4; }
+
+.dn-widgetNewsletter-outro { margin-top: 20px; margin-bottom: 10px; }
+
+.dn-widgetNewsletter-email { width: 100%; margin-bottom: 10px; height: 50px; text-align: center; }
+
+.dn-widgetNewsletter-submit { width: 100%; opacity: 1; letter-spacing: 4px; }
+
+.dn-widgetNewsletter-submit.is-submitting { opacity: .4; pointer-events: none; }
+
+.dn-widgetNewsletter.dn-widgetNewsletter--dark { color: #fff; }
+
+.dn-widgetNewsletter.dn-widgetNewsletter--dark .dn-widget { background-color: #16191e; }
+
+.dn-widgetNewsletter.dn-widgetNewsletter--dark .dn-widgetNewsletter-email { background-color: #fff; border: 0; }
+
+.dn-widgetNewsletter-result .dn-alert { margin-bottom: 10px; }
+
+.dn-widgetNewsletter .dn-widgetNewsletter-form.has-error .form-control { border-bottom: 5px solid #F44336; }

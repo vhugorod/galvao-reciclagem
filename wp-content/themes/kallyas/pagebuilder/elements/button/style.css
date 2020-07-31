@@ -1,0 +1,7 @@
+/* Button element */
+.zn-button > span {vertical-align: middle; display: inline-block;}
+.btn-icon--before .zn-buttonIcon {margin-right:10px}
+.btn-icon--after .zn-buttonIcon {margin-left:10px}
+.zn-button.btn-text,
+.zn-button.btn-underline,
+.zn-button.btn-link {text-align: inherit; padding-left: 0; padding-right: 0;}
